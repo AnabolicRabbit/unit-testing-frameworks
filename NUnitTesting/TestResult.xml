@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="161" result="Failed" total="161" passed="115" failed="46" inconclusive="0" skipped="0" asserts="119" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-06-08 13:34:19Z" end-time="2021-06-08 13:34:21Z" duration="2.065133">
+  <command-line><![CDATA[nunit3-console.exe  /work:"C:\Data\Temp\NUnitTesting" "C:\Data\Temp\NUnitTesting\NUnitTesting.sln"]]></command-line>
+  <test-suite type="Project" id="1" name="NUnitTesting.sln" fullname="C:\Data\Temp\NUnitTesting\NUnitTesting.sln" runstate="Runnable" testcasecount="161" result="Failed" site="Child" total="161" passed="115" failed="46" inconclusive="0" skipped="0" asserts="119">
+    <test-suite type="Assembly" id="7-1216" name="NUnitTesting.dll" fullname="C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\NUnitTesting.dll" runstate="Runnable" testcasecount="161" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.542765" total="161" passed="115" failed="46" warnings="0" inconclusive="0" skipped="0" asserts="119">
+      <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.18363.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit.org\nunit-console" machine-name="EPBYMINW0AAA" user="Iryna_Zybliyenka" user-domain="MINSK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+      <settings>
+        <setting name="DisposeRunners" value="True" />
+        <setting name="WorkDirectory" value="C:\Data\Temp\NUnitTesting" />
+        <setting name="ActiveConfig" value="Debug" />
+        <setting name="ConfigNames" value="System.Collections.Generic.List`1[System.String]" />
+        <setting name="ImageRuntimeVersion" value="4.0.30319" />
+        <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.8" />
+        <setting name="ImageRequiresX86" value="False" />
+        <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+        <setting name="TargetRuntimeFramework" value="net-4.0" />
+        <setting name="NumberOfTestWorkers" value="8" />
+      </settings>
+      <properties>
+        <property name="LevelOfParallelism" value="2" />
+        <property name="_PID" value="27696" />
+        <property name="_APPDOMAIN" value="domain-366d49ad-NUnitTesting.sln" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="7-1217" name="NUnitTesting" fullname="NUnitTesting" runstate="Runnable" testcasecount="161" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.504023" total="161" passed="115" failed="46" warnings="0" inconclusive="0" skipped="0" asserts="119">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="7-1000" name="AbsUnitTests" fullname="NUnitTesting.AbsUnitTests" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.335189" total="12" passed="10" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="7-1004" name="ReturnAbsoluteOfDoubleNumber" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfDoubleNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.063388" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1001" name="ReturnAbsoluteOfDoubleNumber(1.0d,1.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfDoubleNumber(1.0d,1.0d)" methodname="ReturnAbsoluteOfDoubleNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1066526741" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.051434" asserts="1" />
+            <test-case id="7-1002" name="ReturnAbsoluteOfDoubleNumber(-2.0d,2.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfDoubleNumber(-2.0d,2.0d)" methodname="ReturnAbsoluteOfDoubleNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1862630017" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000257" asserts="1" />
+            <test-case id="7-1003" name="ReturnAbsoluteOfDoubleNumber(0.0d,0.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfDoubleNumber(0.0d,0.0d)" methodname="ReturnAbsoluteOfDoubleNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1217634358" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1012" name="ReturnAbsoluteOfFloatNumber" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfFloatNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000620" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1009" name="ReturnAbsoluteOfFloatNumber(12.0f,12.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfFloatNumber(12.0f,12.0d)" methodname="ReturnAbsoluteOfFloatNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1597233115" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000394" asserts="1" />
+            <test-case id="7-1010" name="ReturnAbsoluteOfFloatNumber(-19.0f,19.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfFloatNumber(-19.0f,19.0d)" methodname="ReturnAbsoluteOfFloatNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1773681725" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000076" asserts="1" />
+            <test-case id="7-1011" name="ReturnAbsoluteOfFloatNumber(0.0f,0.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfFloatNumber(0.0f,0.0d)" methodname="ReturnAbsoluteOfFloatNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1724529933" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000061" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1008" name="ReturnAbsoluteOfIntNumber" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfIntNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000545" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1005" name="ReturnAbsoluteOfIntNumber(7,7.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfIntNumber(7,7.0d)" methodname="ReturnAbsoluteOfIntNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="529514478" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000284" asserts="1" />
+            <test-case id="7-1006" name="ReturnAbsoluteOfIntNumber(-19,19.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfIntNumber(-19,19.0d)" methodname="ReturnAbsoluteOfIntNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="337135277" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000101" asserts="1" />
+            <test-case id="7-1007" name="ReturnAbsoluteOfIntNumber(0,0.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfIntNumber(0,0.0d)" methodname="ReturnAbsoluteOfIntNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1138349267" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000109" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1016" name="ReturnAbsoluteOfStringNumber" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.259552" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1013" name="ReturnAbsoluteOfStringNumber(&quot;5&quot;,5.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber(&quot;5&quot;,5.0d)" methodname="ReturnAbsoluteOfStringNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="106041531" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000397" asserts="1" />
+            <test-case id="7-1014" name="ReturnAbsoluteOfStringNumber(&quot;-5.0&quot;,5.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber(&quot;-5.0&quot;,5.0d)" methodname="ReturnAbsoluteOfStringNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="685184461" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.257614" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at NUnitTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber(String inputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AbsUnitTests.cs:line 50]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1015" name="ReturnAbsoluteOfStringNumber(&quot;5.00&quot;,5.0d)" fullname="NUnitTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber(&quot;5.00&quot;,5.0d)" methodname="ReturnAbsoluteOfStringNumber" classname="NUnitTesting.AbsUnitTests" runstate="Runnable" seed="1145692303" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001438" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at NUnitTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber(String inputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AbsUnitTests.cs:line 50]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1017" name="AddUnitTests" fullname="NUnitTesting.AddUnitTests" classname="NUnitTesting.AddUnitTests" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.018825" total="16" passed="4" failed="12" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="7-1022" name="ReturnSumOfTwoDoubleNumbers" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoDoubleNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001569" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1018" name="ReturnSumOfTwoDoubleNumbers(2.0d,2.0d,4.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoDoubleNumbers(2.0d,2.0d,4.0d)" methodname="ReturnSumOfTwoDoubleNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="515448025" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001005" asserts="1" />
+            <test-case id="7-1019" name="ReturnSumOfTwoDoubleNumbers(-3.0d,-3.0d,-6.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoDoubleNumbers(-3.0d,-3.0d,-6.0d)" methodname="ReturnSumOfTwoDoubleNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="742287719" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000119" asserts="1" />
+            <test-case id="7-1020" name="ReturnSumOfTwoDoubleNumbers(15.0d,-16.0d,-1.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoDoubleNumbers(15.0d,-16.0d,-1.0d)" methodname="ReturnSumOfTwoDoubleNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="809230970" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000132" asserts="1" />
+            <test-case id="7-1021" name="ReturnSumOfTwoDoubleNumbers(4.5d,0.0d,4.5d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoDoubleNumbers(4.5d,0.0d,4.5d)" methodname="ReturnSumOfTwoDoubleNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="677380311" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000190" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1032" name="ReturnSumOfTwoFloatNumbers" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.005491" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1028" name="ReturnSumOfTwoFloatNumbers(3.0f,3.0f,6.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(3.0f,3.0f,6.0d)" methodname="ReturnSumOfTwoFloatNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="639120434" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001675" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1029" name="ReturnSumOfTwoFloatNumbers(-3.0f,-3.0f,-6.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(-3.0f,-3.0f,-6.0d)" methodname="ReturnSumOfTwoFloatNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="733786669" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001172" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1030" name="ReturnSumOfTwoFloatNumbers(11.0f,-14.0f,-3.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(11.0f,-14.0f,-3.0d)" methodname="ReturnSumOfTwoFloatNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="1733495937" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001210" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1031" name="ReturnSumOfTwoFloatNumbers(8.0f,0.0f,8.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(8.0f,0.0f,8.0d)" methodname="ReturnSumOfTwoFloatNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="935084790" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001339" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1027" name="ReturnSumOfTwoIntNumbers" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.004645" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1023" name="ReturnSumOfTwoIntNumbers(6,7,13.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(6,7,13.0d)" methodname="ReturnSumOfTwoIntNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="1203388237" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001421" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1024" name="ReturnSumOfTwoIntNumbers(-2,-3,-5.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(-2,-3,-5.0d)" methodname="ReturnSumOfTwoIntNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="1065720779" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001121" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1025" name="ReturnSumOfTwoIntNumbers(14,-20,-6.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(14,-20,-6.0d)" methodname="ReturnSumOfTwoIntNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="1688289149" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001014" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1026" name="ReturnSumOfTwoIntNumbers(4,0,4.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(4,0,4.0d)" methodname="ReturnSumOfTwoIntNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="1147578870" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001001" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1037" name="ReturnSumOfTwoStringNumbers" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.006859" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1033" name="ReturnSumOfTwoStringNumbers(&quot;4&quot;,&quot;3&quot;,7.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(&quot;4&quot;,&quot;3&quot;,7.0d)" methodname="ReturnSumOfTwoStringNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="291712510" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001674" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1034" name="ReturnSumOfTwoStringNumbers(&quot;-9.0&quot;,&quot;-3.0&quot;,-12.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(&quot;-9.0&quot;,&quot;-3.0&quot;,-12.0d)" methodname="ReturnSumOfTwoStringNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="571912714" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.002873" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1035" name="ReturnSumOfTwoStringNumbers(&quot;15&quot;,&quot;-16.00&quot;,-1.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(&quot;15&quot;,&quot;-16.00&quot;,-1.0d)" methodname="ReturnSumOfTwoStringNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="418446082" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001084" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1036" name="ReturnSumOfTwoStringNumbers(&quot;4.0&quot;,&quot;0&quot;,4.0d)" fullname="NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(&quot;4.0&quot;,&quot;0&quot;,4.0d)" methodname="ReturnSumOfTwoStringNumbers" classname="NUnitTesting.AddUnitTests" runstate="Runnable" seed="1741775833" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001136" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnitTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\AddUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1038" name="CosUnitTests" fullname="NUnitTesting.CosUnitTests" classname="NUnitTesting.CosUnitTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.003712" total="16" passed="16" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="16">
+          <test-suite type="ParameterizedMethod" id="7-1043" name="ReturnCosineOfDoubleNumber" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfDoubleNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001270" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1039" name="ReturnCosineOfDoubleNumber(0.0d,1.0d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfDoubleNumber(0.0d,1.0d)" methodname="ReturnCosineOfDoubleNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="462248840" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000995" asserts="1" />
+            <test-case id="7-1040" name="ReturnCosineOfDoubleNumber(60.0d,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfDoubleNumber(60.0d,-0.952412980415156d)" methodname="ReturnCosineOfDoubleNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1374656526" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000085" asserts="1" />
+            <test-case id="7-1041" name="ReturnCosineOfDoubleNumber(90.0d,-0.44807361612917d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfDoubleNumber(90.0d,-0.44807361612917d)" methodname="ReturnCosineOfDoubleNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1106719314" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000059" asserts="1" />
+            <test-case id="7-1042" name="ReturnCosineOfDoubleNumber(-60.0d,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfDoubleNumber(-60.0d,-0.952412980415156d)" methodname="ReturnCosineOfDoubleNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1210988177" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000057" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1053" name="ReturnCosineOfFloatNumber" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfFloatNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000538" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1049" name="ReturnCosineOfFloatNumber(0.0f,1.0d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfFloatNumber(0.0f,1.0d)" methodname="ReturnCosineOfFloatNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1226682542" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000303" asserts="1" />
+            <test-case id="7-1050" name="ReturnCosineOfFloatNumber(60.0f,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfFloatNumber(60.0f,-0.952412980415156d)" methodname="ReturnCosineOfFloatNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1260615318" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000070" asserts="1" />
+            <test-case id="7-1051" name="ReturnCosineOfFloatNumber(90.0f,-0.44807361612917d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfFloatNumber(90.0f,-0.44807361612917d)" methodname="ReturnCosineOfFloatNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1158326984" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+            <test-case id="7-1052" name="ReturnCosineOfFloatNumber(-60.0f,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfFloatNumber(-60.0f,-0.952412980415156d)" methodname="ReturnCosineOfFloatNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1294788055" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1048" name="ReturnCosineOfIntNumber" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfIntNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000829" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1044" name="ReturnCosineOfIntNumber(0,1.0d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfIntNumber(0,1.0d)" methodname="ReturnCosineOfIntNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1272574407" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000451" asserts="1" />
+            <test-case id="7-1045" name="ReturnCosineOfIntNumber(60,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfIntNumber(60,-0.952412980415156d)" methodname="ReturnCosineOfIntNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1684607241" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000121" asserts="1" />
+            <test-case id="7-1046" name="ReturnCosineOfIntNumber(90,-0.44807361612917d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfIntNumber(90,-0.44807361612917d)" methodname="ReturnCosineOfIntNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1711145972" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000089" asserts="1" />
+            <test-case id="7-1047" name="ReturnCosineOfIntNumber(-60,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfIntNumber(-60,-0.952412980415156d)" methodname="ReturnCosineOfIntNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="924256085" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000091" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1058" name="ReturnCosineOfStringNumber" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfStringNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000808" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1054" name="ReturnCosineOfStringNumber(&quot;0&quot;,1.0d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfStringNumber(&quot;0&quot;,1.0d)" methodname="ReturnCosineOfStringNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="2142605132" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000358" asserts="1" />
+            <test-case id="7-1055" name="ReturnCosineOfStringNumber(&quot;60&quot;,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfStringNumber(&quot;60&quot;,-0.952412980415156d)" methodname="ReturnCosineOfStringNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="1609455143" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000112" asserts="1" />
+            <test-case id="7-1056" name="ReturnCosineOfStringNumber(&quot;90.0&quot;,-0.44807361612917d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfStringNumber(&quot;90.0&quot;,-0.44807361612917d)" methodname="ReturnCosineOfStringNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="688152780" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000093" asserts="1" />
+            <test-case id="7-1057" name="ReturnCosineOfStringNumber(&quot;-60.00&quot;,-0.952412980415156d)" fullname="NUnitTesting.CosUnitTests.ReturnCosineOfStringNumber(&quot;-60.00&quot;,-0.952412980415156d)" methodname="ReturnCosineOfStringNumber" classname="NUnitTesting.CosUnitTests" runstate="Runnable" seed="806295782" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000140" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1059" name="DivideUnitTests" fullname="NUnitTesting.DivideUnitTests" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.002558" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+          <test-suite type="ParameterizedMethod" id="7-1076" name="ReturnDivideByZeroException" fullname="NUnitTesting.DivideUnitTests.ReturnDivideByZeroException" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000851" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="7-1075" name="ReturnDivideByZeroException(4,0,&quot;∞&quot;)" fullname="NUnitTesting.DivideUnitTests.ReturnDivideByZeroException(4,0,&quot;∞&quot;)" methodname="ReturnDivideByZeroException" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="1660674208" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000797" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1064" name="ReturnDivisionOfTwoDoubleNumbers" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoDoubleNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000577" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1060" name="ReturnDivisionOfTwoDoubleNumbers(6.0d,2.0d,3.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoDoubleNumbers(6.0d,2.0d,3.0d)" methodname="ReturnDivisionOfTwoDoubleNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="761780346" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000325" asserts="1" />
+            <test-case id="7-1061" name="ReturnDivisionOfTwoDoubleNumbers(-6.0d,1.5d,-4.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoDoubleNumbers(-6.0d,1.5d,-4.0d)" methodname="ReturnDivisionOfTwoDoubleNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="1954456381" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000067" asserts="1" />
+            <test-case id="7-1062" name="ReturnDivisionOfTwoDoubleNumbers(0.0d,10.0d,0.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoDoubleNumbers(0.0d,10.0d,0.0d)" methodname="ReturnDivisionOfTwoDoubleNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="416438482" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+            <test-case id="7-1063" name="ReturnDivisionOfTwoDoubleNumbers(8.0d,-2.0d,-4.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoDoubleNumbers(8.0d,-2.0d,-4.0d)" methodname="ReturnDivisionOfTwoDoubleNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="1078760774" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1074" name="ReturnDivisionOfTwoFloatNumbers" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoFloatNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000464" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1070" name="ReturnDivisionOfTwoFloatNumbers(10.0f,2.0f,5.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoFloatNumbers(10.0f,2.0f,5.0d)" methodname="ReturnDivisionOfTwoFloatNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="1917075211" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000242" asserts="1" />
+            <test-case id="7-1071" name="ReturnDivisionOfTwoFloatNumbers(-7.0f,3.5f,-2.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoFloatNumbers(-7.0f,3.5f,-2.0d)" methodname="ReturnDivisionOfTwoFloatNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="758798047" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000062" asserts="1" />
+            <test-case id="7-1072" name="ReturnDivisionOfTwoFloatNumbers(0.0f,13.0f,0.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoFloatNumbers(0.0f,13.0f,0.0d)" methodname="ReturnDivisionOfTwoFloatNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="229131144" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000057" asserts="1" />
+            <test-case id="7-1073" name="ReturnDivisionOfTwoFloatNumbers(15.0f,-7.5f,-2.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoFloatNumbers(15.0f,-7.5f,-2.0d)" methodname="ReturnDivisionOfTwoFloatNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="526318979" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000054" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1069" name="ReturnDivisionOfTwoIntNumbers" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoIntNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000450" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1065" name="ReturnDivisionOfTwoIntNumbers(5,2,2.5d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoIntNumbers(5,2,2.5d)" methodname="ReturnDivisionOfTwoIntNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="44596892" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000231" asserts="1" />
+            <test-case id="7-1066" name="ReturnDivisionOfTwoIntNumbers(-16,2,-8.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoIntNumbers(-16,2,-8.0d)" methodname="ReturnDivisionOfTwoIntNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="1207750672" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000060" asserts="1" />
+            <test-case id="7-1067" name="ReturnDivisionOfTwoIntNumbers(0,12,0.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoIntNumbers(0,12,0.0d)" methodname="ReturnDivisionOfTwoIntNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="1183462125" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+            <test-case id="7-1068" name="ReturnDivisionOfTwoIntNumbers(14,-2,-7.0d)" fullname="NUnitTesting.DivideUnitTests.ReturnDivisionOfTwoIntNumbers(14,-2,-7.0d)" methodname="ReturnDivisionOfTwoIntNumbers" classname="NUnitTesting.DivideUnitTests" runstate="Runnable" seed="446193218" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1077" name="IsNegativeUnitTests" fullname="NUnitTesting.IsNegativeUnitTests" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.083010" total="12" passed="8" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="12">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="7-1081" name="DefineNegativeDoubleNumber" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeDoubleNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.077561" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1078" name="DefineNegativeDoubleNumber(-50.0d,True)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeDoubleNumber(-50.0d,True)" methodname="DefineNegativeDoubleNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="250120944" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.011429" asserts="1" />
+            <test-case id="7-1079" name="DefineNegativeDoubleNumber(40.0d,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeDoubleNumber(40.0d,False)" methodname="DefineNegativeDoubleNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="1727821723" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000218" asserts="1" />
+            <test-case id="7-1080" name="DefineNegativeDoubleNumber(0.0d,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeDoubleNumber(0.0d,False)" methodname="DefineNegativeDoubleNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="890401910" result="Failed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.065828" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeDoubleNumber(Double inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 25
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeDoubleNumber(Double inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 25
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1089" name="DefineNegativeFloatNumber" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeFloatNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001953" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1086" name="DefineNegativeFloatNumber(-15.7f,True)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeFloatNumber(-15.7f,True)" methodname="DefineNegativeFloatNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="1381383783" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000351" asserts="1" />
+            <test-case id="7-1087" name="DefineNegativeFloatNumber(18.0f,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeFloatNumber(18.0f,False)" methodname="DefineNegativeFloatNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="624972508" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000092" asserts="1" />
+            <test-case id="7-1088" name="DefineNegativeFloatNumber(0.0f,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeFloatNumber(0.0f,False)" methodname="DefineNegativeFloatNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="1313882428" result="Failed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001437" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeFloatNumber(Single inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 43
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeFloatNumber(Single inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 43
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1085" name="DefineNegativeIntNumber" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeIntNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001645" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1082" name="DefineNegativeIntNumber(-26,True)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeIntNumber(-26,True)" methodname="DefineNegativeIntNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="1623865813" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000289" asserts="1" />
+            <test-case id="7-1083" name="DefineNegativeIntNumber(16,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeIntNumber(16,False)" methodname="DefineNegativeIntNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="1141398808" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000074" asserts="1" />
+            <test-case id="7-1084" name="DefineNegativeIntNumber(0,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeIntNumber(0,False)" methodname="DefineNegativeIntNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="875687285" result="Failed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001228" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeIntNumber(Int32 inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 34
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeIntNumber(Int32 inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 34
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1093" name="DefineNegativeStringNumber" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeStringNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001681" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1090" name="DefineNegativeStringNumber(&quot;-11&quot;,True)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeStringNumber(&quot;-11&quot;,True)" methodname="DefineNegativeStringNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="1522748301" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000267" asserts="1" />
+            <test-case id="7-1091" name="DefineNegativeStringNumber(&quot;13.0&quot;,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeStringNumber(&quot;13.0&quot;,False)" methodname="DefineNegativeStringNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="417575679" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000074" asserts="1" />
+            <test-case id="7-1092" name="DefineNegativeStringNumber(&quot;0&quot;,False)" fullname="NUnitTesting.IsNegativeUnitTests.DefineNegativeStringNumber(&quot;0&quot;,False)" methodname="DefineNegativeStringNumber" classname="NUnitTesting.IsNegativeUnitTests" runstate="Runnable" seed="923053109" result="Failed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001284" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeStringNumber(String inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 52
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[   at NUnitTesting.IsNegativeUnitTests.DefineNegativeStringNumber(String inputNumber, Boolean expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\IsNegativeUnitTests.cs:line 52
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1094" name="IsPositiveUnitTests" fullname="NUnitTesting.IsPositiveUnitTests" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.002964" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+          <test-suite type="ParameterizedMethod" id="7-1098" name="DefinePositiveDoubleNumber" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveDoubleNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001022" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1095" name="DefinePositiveDoubleNumber(-50.5d,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveDoubleNumber(-50.5d,False)" methodname="DefinePositiveDoubleNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="1047695083" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000806" asserts="1" />
+            <test-case id="7-1096" name="DefinePositiveDoubleNumber(40.0d,True)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveDoubleNumber(40.0d,True)" methodname="DefinePositiveDoubleNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="1717708745" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000089" asserts="1" />
+            <test-case id="7-1097" name="DefinePositiveDoubleNumber(0.0d,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveDoubleNumber(0.0d,False)" methodname="DefinePositiveDoubleNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="958608989" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000068" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1106" name="DefinePositiveFloatNumber" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveFloatNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000716" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1103" name="DefinePositiveFloatNumber(-19.9f,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveFloatNumber(-19.9f,False)" methodname="DefinePositiveFloatNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="812870492" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000414" asserts="1" />
+            <test-case id="7-1104" name="DefinePositiveFloatNumber(18.3f,True)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveFloatNumber(18.3f,True)" methodname="DefinePositiveFloatNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="1693012486" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000124" asserts="1" />
+            <test-case id="7-1105" name="DefinePositiveFloatNumber(0.0f,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveFloatNumber(0.0f,False)" methodname="DefinePositiveFloatNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="91490169" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000113" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1102" name="DefinePositiveIntNumber" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveIntNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000608" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1099" name="DefinePositiveIntNumber(-10,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveIntNumber(-10,False)" methodname="DefinePositiveIntNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="986796908" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000394" asserts="1" />
+            <test-case id="7-1100" name="DefinePositiveIntNumber(15,True)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveIntNumber(15,True)" methodname="DefinePositiveIntNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="1469892225" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000086" asserts="1" />
+            <test-case id="7-1101" name="DefinePositiveIntNumber(0,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveIntNumber(0,False)" methodname="DefinePositiveIntNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="452101734" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000067" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1110" name="DefinePositiveStringNumber" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveStringNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000429" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1107" name="DefinePositiveStringNumber(&quot;-15.5&quot;,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveStringNumber(&quot;-15.5&quot;,False)" methodname="DefinePositiveStringNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="467031700" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000249" asserts="1" />
+            <test-case id="7-1108" name="DefinePositiveStringNumber(&quot;133&quot;,True)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveStringNumber(&quot;133&quot;,True)" methodname="DefinePositiveStringNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="1804028957" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000071" asserts="1" />
+            <test-case id="7-1109" name="DefinePositiveStringNumber(&quot;0.00&quot;,False)" fullname="NUnitTesting.IsPositiveUnitTests.DefinePositiveStringNumber(&quot;0.00&quot;,False)" methodname="DefinePositiveStringNumber" classname="NUnitTesting.IsPositiveUnitTests" runstate="Runnable" seed="987639169" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000066" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1111" name="MultiplyUnitTests" fullname="NUnitTesting.MultiplyUnitTests" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.003082" total="15" passed="15" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="15">
+          <test-suite type="ParameterizedMethod" id="7-1117" name="ReturnProductOfTwoDoubleNumbers" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoDoubleNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000838" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1112" name="ReturnProductOfTwoDoubleNumbers(6.0d,2.0d,12.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoDoubleNumbers(6.0d,2.0d,12.0d)" methodname="ReturnProductOfTwoDoubleNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1085080647" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000519" asserts="1" />
+            <test-case id="7-1113" name="ReturnProductOfTwoDoubleNumbers(-6.0d,1.5d,-9.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoDoubleNumbers(-6.0d,1.5d,-9.0d)" methodname="ReturnProductOfTwoDoubleNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1183869402" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000081" asserts="1" />
+            <test-case id="7-1114" name="ReturnProductOfTwoDoubleNumbers(0.0d,10.0d,0.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoDoubleNumbers(0.0d,10.0d,0.0d)" methodname="ReturnProductOfTwoDoubleNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="207135856" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000057" asserts="1" />
+            <test-case id="7-1115" name="ReturnProductOfTwoDoubleNumbers(8.0d,-2.0d,-16.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoDoubleNumbers(8.0d,-2.0d,-16.0d)" methodname="ReturnProductOfTwoDoubleNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1243741883" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000057" asserts="1" />
+            <test-case id="7-1116" name="ReturnProductOfTwoDoubleNumbers(0.0d,0.0d,0.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoDoubleNumbers(0.0d,0.0d,0.0d)" methodname="ReturnProductOfTwoDoubleNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1195910803" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1129" name="ReturnProductOfTwoFloatNumbers" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoFloatNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001528" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1124" name="ReturnProductOfTwoFloatNumbers(10.0f,2.0f,20.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoFloatNumbers(10.0f,2.0f,20.0d)" methodname="ReturnProductOfTwoFloatNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1665278657" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000232" asserts="1" />
+            <test-case id="7-1125" name="ReturnProductOfTwoFloatNumbers(-7.0f,3.5f,-24.5d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoFloatNumbers(-7.0f,3.5f,-24.5d)" methodname="ReturnProductOfTwoFloatNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1471545261" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000072" asserts="1" />
+            <test-case id="7-1126" name="ReturnProductOfTwoFloatNumbers(0.0f,13.0f,0.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoFloatNumbers(0.0f,13.0f,0.0d)" methodname="ReturnProductOfTwoFloatNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="501515676" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+            <test-case id="7-1127" name="ReturnProductOfTwoFloatNumbers(15.0f,-7.5f,-112.5d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoFloatNumbers(15.0f,-7.5f,-112.5d)" methodname="ReturnProductOfTwoFloatNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1951186445" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001021" asserts="1" />
+            <test-case id="7-1128" name="ReturnProductOfTwoFloatNumbers(0.0f,0.0f,0.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoFloatNumbers(0.0f,0.0f,0.0d)" methodname="ReturnProductOfTwoFloatNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1830172608" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000077" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1123" name="ReturnProductOfTwoIntNumbers" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoIntNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000550" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1118" name="ReturnProductOfTwoIntNumbers(5,2,10.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoIntNumbers(5,2,10.0d)" methodname="ReturnProductOfTwoIntNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1031858311" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000256" asserts="1" />
+            <test-case id="7-1119" name="ReturnProductOfTwoIntNumbers(-16,2,-32.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoIntNumbers(-16,2,-32.0d)" methodname="ReturnProductOfTwoIntNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="495541621" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000065" asserts="1" />
+            <test-case id="7-1120" name="ReturnProductOfTwoIntNumbers(0,12,0.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoIntNumbers(0,12,0.0d)" methodname="ReturnProductOfTwoIntNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1839470837" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+            <test-case id="7-1121" name="ReturnProductOfTwoIntNumbers(14,-2,-28.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoIntNumbers(14,-2,-28.0d)" methodname="ReturnProductOfTwoIntNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="1006520062" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+            <test-case id="7-1122" name="ReturnProductOfTwoIntNumbers(0,0,0.0d)" fullname="NUnitTesting.MultiplyUnitTests.ReturnProductOfTwoIntNumbers(0,0,0.0d)" methodname="ReturnProductOfTwoIntNumbers" classname="NUnitTesting.MultiplyUnitTests" runstate="Runnable" seed="172809519" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1130" name="PowUnitTests" fullname="NUnitTesting.PowUnitTests" classname="NUnitTesting.PowUnitTests" runstate="Runnable" testcasecount="27" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.032948" total="27" passed="0" failed="27" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="7-1138" name="ReturnValueOfPowerForTwoDoubleNumbers" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.008588" total="7" passed="0" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1131" name="ReturnValueOfPowerForTwoDoubleNumbers(4.0d,2.0d,16.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(4.0d,2.0d,16.0d)" methodname="ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1934071738" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.002115" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 24]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1132" name="ReturnValueOfPowerForTwoDoubleNumbers(-2.0d,3.0d,-8.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(-2.0d,3.0d,-8.0d)" methodname="ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1160519284" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001046" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 24]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1133" name="ReturnValueOfPowerForTwoDoubleNumbers(0.0d,5.0d,0.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(0.0d,5.0d,0.0d)" methodname="ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="47591536" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001109" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 24]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1134" name="ReturnValueOfPowerForTwoDoubleNumbers(5.0d,0.0d,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(5.0d,0.0d,1.0d)" methodname="ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="703920617" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001115" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 24]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1135" name="ReturnValueOfPowerForTwoDoubleNumbers(10.0d,-1.0d,0.1d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(10.0d,-1.0d,0.1d)" methodname="ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="495399738" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001005" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 24]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1136" name="ReturnValueOfPowerForTwoDoubleNumbers(4.0d,0.5d,2.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(4.0d,0.5d,2.0d)" methodname="ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1360289870" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001068" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 24]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1137" name="ReturnValueOfPowerForTwoDoubleNumbers(0.0d,0.0d,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(0.0d,0.0d,1.0d)" methodname="ReturnValueOfPowerForTwoDoubleNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1662174517" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000990" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 24]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1153" name="ReturnValueOfPowerForTwoFloatNumbers" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.009073" total="7" passed="0" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1146" name="ReturnValueOfPowerForTwoFloatNumbers(4.0f,2.0f,16.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(4.0f,2.0f,16.0d)" methodname="ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1035728058" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001514" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1147" name="ReturnValueOfPowerForTwoFloatNumbers(-2.0f,3.0f,-8.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(-2.0f,3.0f,-8.0d)" methodname="ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="123375545" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001011" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1148" name="ReturnValueOfPowerForTwoFloatNumbers(0.0f,5.0f,0.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(0.0f,5.0f,0.0d)" methodname="ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1284013560" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001063" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1149" name="ReturnValueOfPowerForTwoFloatNumbers(5.0f,0.0f,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(5.0f,0.0f,1.0d)" methodname="ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="377742122" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001057" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1150" name="ReturnValueOfPowerForTwoFloatNumbers(10.0f,-1.0f,0.1d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(10.0f,-1.0f,0.1d)" methodname="ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1048352373" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001001" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1151" name="ReturnValueOfPowerForTwoFloatNumbers(4.0f,0.5f,2.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(4.0f,0.5f,2.0d)" methodname="ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1229248805" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.002140" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1152" name="ReturnValueOfPowerForTwoFloatNumbers(0.0f,0.0f,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(0.0f,0.0f,1.0d)" methodname="ReturnValueOfPowerForTwoFloatNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1749273896" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001137" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 44]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1145" name="ReturnValueOfPowerForTwoIntNumbers" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.007136" total="6" passed="0" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1139" name="ReturnValueOfPowerForTwoIntNumbers(4,2,16.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(4,2,16.0d)" methodname="ReturnValueOfPowerForTwoIntNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1277817409" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001446" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1140" name="ReturnValueOfPowerForTwoIntNumbers(-2,3,-8.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(-2,3,-8.0d)" methodname="ReturnValueOfPowerForTwoIntNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1696196238" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000999" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1141" name="ReturnValueOfPowerForTwoIntNumbers(0,5,0.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(0,5,0.0d)" methodname="ReturnValueOfPowerForTwoIntNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="467722482" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001415" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1142" name="ReturnValueOfPowerForTwoIntNumbers(5,0,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(5,0,1.0d)" methodname="ReturnValueOfPowerForTwoIntNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="241191707" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001022" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1143" name="ReturnValueOfPowerForTwoIntNumbers(10,-1,0.1d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(10,-1,0.1d)" methodname="ReturnValueOfPowerForTwoIntNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1385543690" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000997" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1144" name="ReturnValueOfPowerForTwoIntNumbers(0,0,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(0,0,1.0d)" methodname="ReturnValueOfPowerForTwoIntNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1052872028" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001127" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1161" name="ReturnValueOfPowerForTwoStringNumbers" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.007977" total="7" passed="0" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1154" name="ReturnValueOfPowerForTwoStringNumbers(&quot;4&quot;,&quot;2&quot;,16.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(&quot;4&quot;,&quot;2&quot;,16.0d)" methodname="ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="2031093823" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001256" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1155" name="ReturnValueOfPowerForTwoStringNumbers(&quot;-2.00&quot;,&quot;3.00&quot;,-8.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(&quot;-2.00&quot;,&quot;3.00&quot;,-8.0d)" methodname="ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="469620962" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001181" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1156" name="ReturnValueOfPowerForTwoStringNumbers(&quot;0&quot;,&quot;5.000&quot;,0.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(&quot;0&quot;,&quot;5.000&quot;,0.0d)" methodname="ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="206963366" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001018" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1157" name="ReturnValueOfPowerForTwoStringNumbers(&quot;5.0000&quot;,&quot;0&quot;,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(&quot;5.0000&quot;,&quot;0&quot;,1.0d)" methodname="ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1695535627" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001101" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1158" name="ReturnValueOfPowerForTwoStringNumbers(&quot;10.0&quot;,&quot;-1.0&quot;,0.1d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(&quot;10.0&quot;,&quot;-1.0&quot;,0.1d)" methodname="ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="464027349" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001003" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1159" name="ReturnValueOfPowerForTwoStringNumbers(&quot;4.00&quot;,&quot;0.50&quot;,2.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(&quot;4.00&quot;,&quot;0.50&quot;,2.0d)" methodname="ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1688808379" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001120" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1160" name="ReturnValueOfPowerForTwoStringNumbers(&quot;0.000&quot;,&quot;0.000&quot;,1.0d)" fullname="NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(&quot;0.000&quot;,&quot;0.000&quot;,1.0d)" methodname="ReturnValueOfPowerForTwoStringNumbers" classname="NUnitTesting.PowUnitTests" runstate="Runnable" seed="1488331044" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001167" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\PowUnitTests.cs:line 54]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1162" name="SinUnitTests" fullname="NUnitTesting.SinUnitTests" classname="NUnitTesting.SinUnitTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.003848" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+          <test-suite type="ParameterizedMethod" id="7-1166" name="ReturnSinusOfDoubleNumber" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfDoubleNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.002168" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1163" name="ReturnSinusOfDoubleNumber(0.0d,0.0d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfDoubleNumber(0.0d,0.0d)" methodname="ReturnSinusOfDoubleNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="2063282195" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001832" asserts="1" />
+            <test-case id="7-1164" name="ReturnSinusOfDoubleNumber(30.0d,-0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfDoubleNumber(30.0d,-0.988031624092862d)" methodname="ReturnSinusOfDoubleNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="481310703" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000207" asserts="1" />
+            <test-case id="7-1165" name="ReturnSinusOfDoubleNumber(-30.0d,0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfDoubleNumber(-30.0d,0.988031624092862d)" methodname="ReturnSinusOfDoubleNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="1060781719" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000064" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1174" name="ReturnSinusOfFloatNumber" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfFloatNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000426" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1171" name="ReturnSinusOfFloatNumber(0.0f,0.0d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfFloatNumber(0.0f,0.0d)" methodname="ReturnSinusOfFloatNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="1932293264" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000264" asserts="1" />
+            <test-case id="7-1172" name="ReturnSinusOfFloatNumber(30.0f,-0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfFloatNumber(30.0f,-0.988031624092862d)" methodname="ReturnSinusOfFloatNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="1296722197" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000063" asserts="1" />
+            <test-case id="7-1173" name="ReturnSinusOfFloatNumber(-30.0f,0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfFloatNumber(-30.0f,0.988031624092862d)" methodname="ReturnSinusOfFloatNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="1415823455" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1170" name="ReturnSinusOfIntNumber" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfIntNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000412" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1167" name="ReturnSinusOfIntNumber(0,0.0d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfIntNumber(0,0.0d)" methodname="ReturnSinusOfIntNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="1208537036" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000238" asserts="1" />
+            <test-case id="7-1168" name="ReturnSinusOfIntNumber(30,-0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfIntNumber(30,-0.988031624092862d)" methodname="ReturnSinusOfIntNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="294918512" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000067" asserts="1" />
+            <test-case id="7-1169" name="ReturnSinusOfIntNumber(-30,0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfIntNumber(-30,0.988031624092862d)" methodname="ReturnSinusOfIntNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="604440819" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000061" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1178" name="ReturnSinusOfStringNumber" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfStringNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000609" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1175" name="ReturnSinusOfStringNumber(&quot;0.0&quot;,0.0d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfStringNumber(&quot;0.0&quot;,0.0d)" methodname="ReturnSinusOfStringNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="1906374636" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000328" asserts="1" />
+            <test-case id="7-1176" name="ReturnSinusOfStringNumber(&quot;30.00&quot;,-0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfStringNumber(&quot;30.00&quot;,-0.988031624092862d)" methodname="ReturnSinusOfStringNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="1816496966" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000107" asserts="1" />
+            <test-case id="7-1177" name="ReturnSinusOfStringNumber(&quot;-30.000&quot;,0.988031624092862d)" fullname="NUnitTesting.SinUnitTests.ReturnSinusOfStringNumber(&quot;-30.000&quot;,0.988031624092862d)" methodname="ReturnSinusOfStringNumber" classname="NUnitTesting.SinUnitTests" runstate="Runnable" seed="122172630" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000105" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1179" name="SqrtUnitTests" fullname="NUnitTesting.SqrtUnitTests" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.003031" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="9">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="7-1182" name="ReturnSquareRootOfDoubleNumber" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfDoubleNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000789" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1180" name="ReturnSquareRootOfDoubleNumber(4.0d,2.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfDoubleNumber(4.0d,2.0d)" methodname="ReturnSquareRootOfDoubleNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="575683509" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000655" asserts="1" />
+            <test-case id="7-1181" name="ReturnSquareRootOfDoubleNumber(0.0d,0.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfDoubleNumber(0.0d,0.0d)" methodname="ReturnSquareRootOfDoubleNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="228438305" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000078" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1188" name="ReturnSquareRootOfFloatNumber" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfFloatNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000395" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1186" name="ReturnSquareRootOfFloatNumber(4.0f,2.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfFloatNumber(4.0f,2.0d)" methodname="ReturnSquareRootOfFloatNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="1259006940" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000240" asserts="1" />
+            <test-case id="7-1187" name="ReturnSquareRootOfFloatNumber(0.0f,0.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfFloatNumber(0.0f,0.0d)" methodname="ReturnSquareRootOfFloatNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="976551279" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000115" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1185" name="ReturnSquareRootOfIntNumber" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfIntNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000339" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1183" name="ReturnSquareRootOfIntNumber(4,2.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfIntNumber(4,2.0d)" methodname="ReturnSquareRootOfIntNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="1151688394" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000240" asserts="1" />
+            <test-case id="7-1184" name="ReturnSquareRootOfIntNumber(0,0.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfIntNumber(0,0.0d)" methodname="ReturnSquareRootOfIntNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="915497066" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000063" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1194" name="ReturnSquareRootOfNegativeNumber" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfNegativeNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000257" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="7-1193" name="ReturnSquareRootOfNegativeNumber(-4.0d,&quot;NaN&quot;)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfNegativeNumber(-4.0d,&quot;NaN&quot;)" methodname="ReturnSquareRootOfNegativeNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="1221678379" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000233" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1192" name="ReturnSquareRootOfStringNumber" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfStringNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001050" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="7-1189" name="ReturnSquareRootOfStringNumber(&quot;4.0&quot;,2.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfStringNumber(&quot;4.0&quot;,2.0d)" methodname="ReturnSquareRootOfStringNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="679931655" result="Failed" label="Error" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000873" asserts="0">
+              <failure>
+                <message><![CDATA[System.FormatException : Input string was not in a correct format.]]></message>
+                <stack-trace><![CDATA[   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at NUnitTesting.SqrtUnitTests.ReturnSquareRootOfStringNumber(String inputNumber, Double expectedResult) in C:\Data\Temp\NUnitTesting\NUnitTesting\SqrtUnitTests.cs:line 50]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="7-1190" name="ReturnSquareRootOfStringNumber(&quot;16&quot;,4.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfStringNumber(&quot;16&quot;,4.0d)" methodname="ReturnSquareRootOfStringNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="1046632968" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000070" asserts="1" />
+            <test-case id="7-1191" name="ReturnSquareRootOfStringNumber(&quot;0&quot;,0.0d)" fullname="NUnitTesting.SqrtUnitTests.ReturnSquareRootOfStringNumber(&quot;0&quot;,0.0d)" methodname="ReturnSquareRootOfStringNumber" classname="NUnitTesting.SqrtUnitTests" runstate="Runnable" seed="624265178" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000060" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="7-1195" name="SubUnitTests" fullname="NUnitTesting.SubUnitTests" classname="NUnitTesting.SubUnitTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.003092" total="16" passed="16" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="16">
+          <test-suite type="ParameterizedMethod" id="7-1200" name="ReturnSubtractingOfTwoDoubleNumbers" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoDoubleNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.001019" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1196" name="ReturnSubtractingOfTwoDoubleNumbers(4.0d,2.0d,2.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoDoubleNumbers(4.0d,2.0d,2.0d)" methodname="ReturnSubtractingOfTwoDoubleNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="1096294165" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000767" asserts="1" />
+            <test-case id="7-1197" name="ReturnSubtractingOfTwoDoubleNumbers(-6.0d,-3.0d,-3.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoDoubleNumbers(-6.0d,-3.0d,-3.0d)" methodname="ReturnSubtractingOfTwoDoubleNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="799008482" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000078" asserts="1" />
+            <test-case id="7-1198" name="ReturnSubtractingOfTwoDoubleNumbers(-15.0d,1.0d,-16.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoDoubleNumbers(-15.0d,1.0d,-16.0d)" methodname="ReturnSubtractingOfTwoDoubleNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="1484965546" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+            <test-case id="7-1199" name="ReturnSubtractingOfTwoDoubleNumbers(4.5d,0.0d,4.5d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoDoubleNumbers(4.5d,0.0d,4.5d)" methodname="ReturnSubtractingOfTwoDoubleNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="378229668" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000057" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1210" name="ReturnSubtractingOfTwoFloatNumbers" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoFloatNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000862" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1206" name="ReturnSubtractingOfTwoFloatNumbers(4.5f,2.5f,2.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoFloatNumbers(4.5f,2.5f,2.0d)" methodname="ReturnSubtractingOfTwoFloatNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="74617311" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000445" asserts="1" />
+            <test-case id="7-1207" name="ReturnSubtractingOfTwoFloatNumbers(-6.0f,-3.0f,-3.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoFloatNumbers(-6.0f,-3.0f,-3.0d)" methodname="ReturnSubtractingOfTwoFloatNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="569269421" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000110" asserts="1" />
+            <test-case id="7-1208" name="ReturnSubtractingOfTwoFloatNumbers(-15.0f,1.0f,-16.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoFloatNumbers(-15.0f,1.0f,-16.0d)" methodname="ReturnSubtractingOfTwoFloatNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="1572285350" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000099" asserts="1" />
+            <test-case id="7-1209" name="ReturnSubtractingOfTwoFloatNumbers(4.5f,0.0f,4.5d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoFloatNumbers(4.5f,0.0f,4.5d)" methodname="ReturnSubtractingOfTwoFloatNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="1994693427" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000097" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1205" name="ReturnSubtractingOfTwoIntNumbers" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoIntNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000586" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1201" name="ReturnSubtractingOfTwoIntNumbers(13,7,6.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoIntNumbers(13,7,6.0d)" methodname="ReturnSubtractingOfTwoIntNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="206468837" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000344" asserts="1" />
+            <test-case id="7-1202" name="ReturnSubtractingOfTwoIntNumbers(-5,-3,-2.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoIntNumbers(-5,-3,-2.0d)" methodname="ReturnSubtractingOfTwoIntNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="1318955550" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000066" asserts="1" />
+            <test-case id="7-1203" name="ReturnSubtractingOfTwoIntNumbers(-6,14,-20.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoIntNumbers(-6,14,-20.0d)" methodname="ReturnSubtractingOfTwoIntNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="1161650421" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+            <test-case id="7-1204" name="ReturnSubtractingOfTwoIntNumbers(4,0,4.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoIntNumbers(4,0,4.0d)" methodname="ReturnSubtractingOfTwoIntNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="964854349" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000056" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="7-1215" name="ReturnSubtractingOfTwoStringNumbers" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoStringNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000463" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="7-1211" name="ReturnSubtractingOfTwoStringNumbers(&quot;4&quot;,&quot;3&quot;,1.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoStringNumbers(&quot;4&quot;,&quot;3&quot;,1.0d)" methodname="ReturnSubtractingOfTwoStringNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="825093078" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000236" asserts="1" />
+            <test-case id="7-1212" name="ReturnSubtractingOfTwoStringNumbers(&quot;-9.0&quot;,&quot;-3.0&quot;,-6.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoStringNumbers(&quot;-9.0&quot;,&quot;-3.0&quot;,-6.0d)" methodname="ReturnSubtractingOfTwoStringNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="519513578" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000063" asserts="1" />
+            <test-case id="7-1213" name="ReturnSubtractingOfTwoStringNumbers(&quot;15&quot;,&quot;-16.00&quot;,31.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoStringNumbers(&quot;15&quot;,&quot;-16.00&quot;,31.0d)" methodname="ReturnSubtractingOfTwoStringNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="645426598" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+            <test-case id="7-1214" name="ReturnSubtractingOfTwoStringNumbers(&quot;4.0&quot;,&quot;0&quot;,4.0d)" fullname="NUnitTesting.SubUnitTests.ReturnSubtractingOfTwoStringNumbers(&quot;4.0&quot;,&quot;0&quot;,4.0d)" methodname="ReturnSubtractingOfTwoStringNumbers" classname="NUnitTesting.SubUnitTests" runstate="Runnable" seed="1249166416" result="Passed" start-time="2021-06-08 13:34:20Z" end-time="2021-06-08 13:34:20Z" duration="0.000058" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
