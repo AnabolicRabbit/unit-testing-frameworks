@@ -1,0 +1,16 @@
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.pdb
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\Calculator1.dll
+C:\Data\Temp\MSTesting\MSTesting\obj\Debug\net48\MSTesting.csprojAssemblyReference.cache
+C:\Data\Temp\MSTesting\MSTesting\obj\Debug\net48\MSTesting.AssemblyInfoInputs.cache
+C:\Data\Temp\MSTesting\MSTesting\obj\Debug\net48\MSTesting.AssemblyInfo.cs
+C:\Data\Temp\MSTesting\MSTesting\obj\Debug\net48\MSTesting.csproj.CoreCompileInputs.cache
+C:\Data\Temp\MSTesting\MSTesting\obj\Debug\net48\MSTesting.csproj.CopyComplete
+C:\Data\Temp\MSTesting\MSTesting\obj\Debug\net48\MSTesting.dll
+C:\Data\Temp\MSTesting\MSTesting\obj\Debug\net48\MSTesting.pdb
