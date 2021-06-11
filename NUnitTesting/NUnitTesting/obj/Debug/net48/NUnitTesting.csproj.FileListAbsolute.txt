@@ -1,0 +1,16 @@
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\NUnit3.TestAdapter.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\NUnit3.TestAdapter.pdb
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\nunit.engine.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\nunit.engine.api.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\NUnitTesting.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\NUnitTesting.pdb
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\nunit.framework.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\bin\Debug\net48\Calculator1.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\obj\Debug\net48\NUnitTesting.csprojAssemblyReference.cache
+C:\Data\Temp\NUnitTesting\NUnitTesting\obj\Debug\net48\NUnitTesting.AssemblyInfoInputs.cache
+C:\Data\Temp\NUnitTesting\NUnitTesting\obj\Debug\net48\NUnitTesting.AssemblyInfo.cs
+C:\Data\Temp\NUnitTesting\NUnitTesting\obj\Debug\net48\NUnitTesting.csproj.CoreCompileInputs.cache
+C:\Data\Temp\NUnitTesting\NUnitTesting\obj\Debug\net48\NUnitTesting.csproj.CopyComplete
+C:\Data\Temp\NUnitTesting\NUnitTesting\obj\Debug\net48\NUnitTesting.dll
+C:\Data\Temp\NUnitTesting\NUnitTesting\obj\Debug\net48\NUnitTesting.pdb
