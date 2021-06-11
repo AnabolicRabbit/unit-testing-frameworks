@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="623e9596-2c40-4b97-99d6-08cd35770b73" name="Iryna_Zybliyenka@EPBYMINW0AAA 2021-06-09 10:02:44" runUser="MINSK\Iryna_Zybliyenka" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-06-09T10:02:44.4073326+03:00" queuing="2021-06-09T10:02:44.4073326+03:00" start="2021-06-09T10:02:43.8702044+03:00" finish="2021-06-09T10:02:44.7417400+03:00" />
+  <TestSettings name="default" id="3dbb3b45-a4ec-489e-9b91-af630070c821">
+    <Deployment runDeploymentRoot="Iryna_Zybliyenka_EPBYMINW0AAA_2021-06-09_10_02_44" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testId="81308b57-0550-2abb-92ab-e09d61e27724" testName="ReturnValueOfPowerForTwoIntNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0038017" startTime="2021-06-09T10:02:44.4985821+03:00" endTime="2021-06-09T10:02:44.5025831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="4bcaef59-0a97-4457-9527-a65128c8b7e3" parentExecutionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testId="81308b57-0550-2abb-92ab-e09d61e27724" testName="ReturnValueOfPowerForTwoIntNumbers (4,2,16)" computerName="EPBYMINW0AAA" duration="00:00:00.0008086" startTime="2021-06-09T10:02:44.4985821+03:00" endTime="2021-06-09T10:02:44.5025831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bcaef59-0a97-4457-9527-a65128c8b7e3" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 40&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="88fef86e-0ee6-4846-b1ee-d406eb1aae38" parentExecutionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testId="81308b57-0550-2abb-92ab-e09d61e27724" testName="ReturnValueOfPowerForTwoIntNumbers (-2,3,-8)" computerName="EPBYMINW0AAA" duration="00:00:00.0005718" startTime="2021-06-09T10:02:44.4985821+03:00" endTime="2021-06-09T10:02:44.5025831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88fef86e-0ee6-4846-b1ee-d406eb1aae38" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 40&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="ca5830cf-e76e-45de-9801-26421a53dd32" parentExecutionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testId="81308b57-0550-2abb-92ab-e09d61e27724" testName="ReturnValueOfPowerForTwoIntNumbers (0,5,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0005907" startTime="2021-06-09T10:02:44.4985821+03:00" endTime="2021-06-09T10:02:44.5025831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca5830cf-e76e-45de-9801-26421a53dd32" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 40&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="45024ade-e874-45b8-a981-735cca7653b2" parentExecutionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testId="81308b57-0550-2abb-92ab-e09d61e27724" testName="ReturnValueOfPowerForTwoIntNumbers (5,0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0005594" startTime="2021-06-09T10:02:44.4985821+03:00" endTime="2021-06-09T10:02:44.5025831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45024ade-e874-45b8-a981-735cca7653b2" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 40&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a8398433-715f-47fb-8930-e3fe092f8eca" parentExecutionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testId="81308b57-0550-2abb-92ab-e09d61e27724" testName="ReturnValueOfPowerForTwoIntNumbers (10,-1,0.1)" computerName="EPBYMINW0AAA" duration="00:00:00.0005476" startTime="2021-06-09T10:02:44.4985821+03:00" endTime="2021-06-09T10:02:44.5025831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8398433-715f-47fb-8930-e3fe092f8eca" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 40&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="22e94c00-41a4-418a-a0ad-3e2607a2c459" parentExecutionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testId="81308b57-0550-2abb-92ab-e09d61e27724" testName="ReturnValueOfPowerForTwoIntNumbers (0,0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0005813" startTime="2021-06-09T10:02:44.4985821+03:00" endTime="2021-06-09T10:02:44.5025831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22e94c00-41a4-418a-a0ad-3e2607a2c459" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 40&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="18941254-9066-4819-8686-e72ea7dba32b" testId="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7" testName="ReturnProductOfTwoIntNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0001518" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18941254-9066-4819-8686-e72ea7dba32b" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="767b44a4-803c-41b8-bc61-5f4715182e95" parentExecutionId="18941254-9066-4819-8686-e72ea7dba32b" testId="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7" testName="ReturnProductOfTwoIntNumbers (5,2,10)" computerName="EPBYMINW0AAA" duration="00:00:00.0000760" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="767b44a4-803c-41b8-bc61-5f4715182e95" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ac1b007e-61cc-490f-8677-148ff160ffb5" parentExecutionId="18941254-9066-4819-8686-e72ea7dba32b" testId="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7" testName="ReturnProductOfTwoIntNumbers (-16,2,-32)" computerName="EPBYMINW0AAA" duration="00:00:00.0000024" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac1b007e-61cc-490f-8677-148ff160ffb5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d9d3d867-bb03-4e8f-a104-7481b4fda7c1" parentExecutionId="18941254-9066-4819-8686-e72ea7dba32b" testId="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7" testName="ReturnProductOfTwoIntNumbers (0,12,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000015" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9d3d867-bb03-4e8f-a104-7481b4fda7c1" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="9944ebf1-f39d-4c68-b35e-ce446650118a" parentExecutionId="18941254-9066-4819-8686-e72ea7dba32b" testId="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7" testName="ReturnProductOfTwoIntNumbers (14,-2,-28)" computerName="EPBYMINW0AAA" duration="00:00:00.0000043" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9944ebf1-f39d-4c68-b35e-ce446650118a" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="cefa8fd4-f045-43e1-801d-9572542ad252" parentExecutionId="18941254-9066-4819-8686-e72ea7dba32b" testId="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7" testName="ReturnProductOfTwoIntNumbers (0,0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000015" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cefa8fd4-f045-43e1-801d-9572542ad252" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9582c8c-501a-4efe-9542-ea860a9f4c7d" testId="51aaa8a9-e7bc-f863-dea3-d43a2446b7d2" testName="ReturnSumOfTwoDoubleNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0003262" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9582c8c-501a-4efe-9542-ea860a9f4c7d" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="57106697-45fc-4d0a-89b3-6d42c57aeca9" parentExecutionId="e9582c8c-501a-4efe-9542-ea860a9f4c7d" testId="51aaa8a9-e7bc-f863-dea3-d43a2446b7d2" testName="ReturnSumOfTwoDoubleNumbers (2,2,4)" computerName="EPBYMINW0AAA" duration="00:00:00.0002541" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57106697-45fc-4d0a-89b3-6d42c57aeca9" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3d37e418-776f-4738-be68-68b5abf744c6" parentExecutionId="e9582c8c-501a-4efe-9542-ea860a9f4c7d" testId="51aaa8a9-e7bc-f863-dea3-d43a2446b7d2" testName="ReturnSumOfTwoDoubleNumbers (-3,-3,-6)" computerName="EPBYMINW0AAA" duration="00:00:00.0000030" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d37e418-776f-4738-be68-68b5abf744c6" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a7235be7-b866-4d78-a3e0-3e917a3fab6c" parentExecutionId="e9582c8c-501a-4efe-9542-ea860a9f4c7d" testId="51aaa8a9-e7bc-f863-dea3-d43a2446b7d2" testName="ReturnSumOfTwoDoubleNumbers (15,-16,-1)" computerName="EPBYMINW0AAA" duration="00:00:00.0000020" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7235be7-b866-4d78-a3e0-3e917a3fab6c" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d0819db0-47bf-4ebc-be82-e3dc3fc432aa" parentExecutionId="e9582c8c-501a-4efe-9542-ea860a9f4c7d" testId="51aaa8a9-e7bc-f863-dea3-d43a2446b7d2" testName="ReturnSumOfTwoDoubleNumbers (4.5,0,4.5)" computerName="EPBYMINW0AAA" duration="00:00:00.0000015" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0819db0-47bf-4ebc-be82-e3dc3fc432aa" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="81c108b0-2b58-4f7e-a74d-63cefc69e8df" testId="fa5cd141-cdc5-cab0-b635-edeb8249d4d2" testName="DefinePositiveDoubleNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0003316" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81c108b0-2b58-4f7e-a74d-63cefc69e8df" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="8d1697fc-b1bd-49d1-a963-54a3a3c0f0d4" parentExecutionId="81c108b0-2b58-4f7e-a74d-63cefc69e8df" testId="fa5cd141-cdc5-cab0-b635-edeb8249d4d2" testName="DefinePositiveDoubleNumber (-50.5,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0002661" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d1697fc-b1bd-49d1-a963-54a3a3c0f0d4" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="87a6081a-2579-49f7-a9c3-3e91a172b940" parentExecutionId="81c108b0-2b58-4f7e-a74d-63cefc69e8df" testId="fa5cd141-cdc5-cab0-b635-edeb8249d4d2" testName="DefinePositiveDoubleNumber (40,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0000033" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87a6081a-2579-49f7-a9c3-3e91a172b940" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="33bdbb3e-98ba-40f5-96d5-e0f39880aa64" parentExecutionId="81c108b0-2b58-4f7e-a74d-63cefc69e8df" testId="fa5cd141-cdc5-cab0-b635-edeb8249d4d2" testName="DefinePositiveDoubleNumber (0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000049" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33bdbb3e-98ba-40f5-96d5-e0f39880aa64" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7e6345d-4466-4d1e-a09b-69be55e5fc82" testId="c35afcaa-4695-627f-019e-a5c624075431" testName="DefineNegativeDoubleNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0035630" startTime="2021-06-09T10:02:44.4826173+03:00" endTime="2021-06-09T10:02:44.4866075+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7e6345d-4466-4d1e-a09b-69be55e5fc82" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="80dae972-d8f7-4bf1-8207-d18671a0c6c5" parentExecutionId="e7e6345d-4466-4d1e-a09b-69be55e5fc82" testId="c35afcaa-4695-627f-019e-a5c624075431" testName="DefineNegativeDoubleNumber (-50,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0009763" startTime="2021-06-09T10:02:44.4826173+03:00" endTime="2021-06-09T10:02:44.4866075+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80dae972-d8f7-4bf1-8207-d18671a0c6c5" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="5d64a641-687a-4535-b57f-877939a96fc9" parentExecutionId="e7e6345d-4466-4d1e-a09b-69be55e5fc82" testId="c35afcaa-4695-627f-019e-a5c624075431" testName="DefineNegativeDoubleNumber (40,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000036" startTime="2021-06-09T10:02:44.4826173+03:00" endTime="2021-06-09T10:02:44.4866075+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d64a641-687a-4535-b57f-877939a96fc9" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="96d0d987-336b-4c12-87f0-203d670ae050" parentExecutionId="e7e6345d-4466-4d1e-a09b-69be55e5fc82" testId="c35afcaa-4695-627f-019e-a5c624075431" testName="DefineNegativeDoubleNumber (0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0025223" startTime="2021-06-09T10:02:44.4826173+03:00" endTime="2021-06-09T10:02:44.4866075+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96d0d987-336b-4c12-87f0-203d670ae050" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+              <StackTrace>   at MSTesting.IsNegativeUnitTests.DefineNegativeDoubleNumber(Double inputNumber, Boolean expectedResult) in C:\Data\Temp\MSTesting\MSTesting\IsNegativeUnitTests.cs:line 24&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="24a29d48-aace-40ce-8249-66791559d307" testId="87652100-307b-0039-abf8-faecff0d6170" testName="ReturnSquareRootOfIntNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0002642" startTime="2021-06-09T10:02:44.5142716+03:00" endTime="2021-06-09T10:02:44.5142716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24a29d48-aace-40ce-8249-66791559d307" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="f8d3ae3e-437b-4c6d-a816-887ab82aadc8" parentExecutionId="24a29d48-aace-40ce-8249-66791559d307" testId="87652100-307b-0039-abf8-faecff0d6170" testName="ReturnSquareRootOfIntNumber (4,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0001752" startTime="2021-06-09T10:02:44.5142716+03:00" endTime="2021-06-09T10:02:44.5142716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8d3ae3e-437b-4c6d-a816-887ab82aadc8" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e5680843-3c0b-410c-80ba-5fbe91e641a5" parentExecutionId="24a29d48-aace-40ce-8249-66791559d307" testId="87652100-307b-0039-abf8-faecff0d6170" testName="ReturnSquareRootOfIntNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000025" startTime="2021-06-09T10:02:44.5142716+03:00" endTime="2021-06-09T10:02:44.5142716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5680843-3c0b-410c-80ba-5fbe91e641a5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="917447df-40f3-412a-ab63-1ff31d0863fc" testId="2b3c9281-851c-9bb4-e3b3-3d46543f9296" testName="ReturnSumOfTwoStringNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0001352" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="917447df-40f3-412a-ab63-1ff31d0863fc" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="c35902ee-5e74-433e-8765-c06a01b0084b" parentExecutionId="917447df-40f3-412a-ab63-1ff31d0863fc" testId="2b3c9281-851c-9bb4-e3b3-3d46543f9296" testName="ReturnSumOfTwoStringNumbers (4,3,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0000722" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c35902ee-5e74-433e-8765-c06a01b0084b" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="9906a87a-b6a0-4d96-a4c0-e05088e330a5" parentExecutionId="917447df-40f3-412a-ab63-1ff31d0863fc" testId="2b3c9281-851c-9bb4-e3b3-3d46543f9296" testName="ReturnSumOfTwoStringNumbers (-9.0,-3.0,-6)" computerName="EPBYMINW0AAA" duration="00:00:00.0000030" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9906a87a-b6a0-4d96-a4c0-e05088e330a5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="38484430-4de0-47f3-bbfe-bfd2e40cc04a" parentExecutionId="917447df-40f3-412a-ab63-1ff31d0863fc" testId="2b3c9281-851c-9bb4-e3b3-3d46543f9296" testName="ReturnSumOfTwoStringNumbers (15,-16.00,31)" computerName="EPBYMINW0AAA" duration="00:00:00.0000023" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38484430-4de0-47f3-bbfe-bfd2e40cc04a" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="c6c07184-6432-47e8-bc61-5d09558962da" parentExecutionId="917447df-40f3-412a-ab63-1ff31d0863fc" testId="2b3c9281-851c-9bb4-e3b3-3d46543f9296" testName="ReturnSumOfTwoStringNumbers (4.0,0,4)" computerName="EPBYMINW0AAA" duration="00:00:00.0000020" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6c07184-6432-47e8-bc61-5d09558962da" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0041544" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51349a74-b9f3-48f9-8a7d-b875aef4acd6" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="9d22fff9-2cdd-4640-a47d-d7a5eda721de" parentExecutionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers (4,2,16)" computerName="EPBYMINW0AAA" duration="00:00:00.0008466" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d22fff9-2cdd-4640-a47d-d7a5eda721de" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="20f19ef0-17f2-4db8-91a6-fbe65202f941" parentExecutionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers (-2,3,-8)" computerName="EPBYMINW0AAA" duration="00:00:00.0005498" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20f19ef0-17f2-4db8-91a6-fbe65202f941" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c8b141ad-f2f7-420d-90b8-bc8bbe508e27" parentExecutionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers (0,5,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0004829" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8b141ad-f2f7-420d-90b8-bc8bbe508e27" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="476cbf9a-cf2c-426d-9b50-123993cab94b" parentExecutionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers (5,0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0004798" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="476cbf9a-cf2c-426d-9b50-123993cab94b" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a2f2535e-0686-47d6-9f51-5f2ae71f988a" parentExecutionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers (10,-1,0.1)" computerName="EPBYMINW0AAA" duration="00:00:00.0004996" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2f2535e-0686-47d6-9f51-5f2ae71f988a" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="64c34d6d-fb8b-4773-b48f-b8a66a1e2312" parentExecutionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers (4,0.5,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0005845" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64c34d6d-fb8b-4773-b48f-b8a66a1e2312" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e946ad44-83ab-469e-bf55-07e710f6c6cd" parentExecutionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testId="a53833d5-5941-5137-beac-c644f6977fd1" testName="ReturnValueOfPowerForTwoFloatNumbers (0,0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0005632" startTime="2021-06-09T10:02:44.5025831+03:00" endTime="2021-06-09T10:02:44.5071126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e946ad44-83ab-469e-bf55-07e710f6c6cd" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="ac90ff28-40ed-46a7-82ab-3845b09fb0d1" testId="81b2e40f-23ac-16e1-be8a-98e574e80501" testName="DefineNegativeStringNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0006916" startTime="2021-06-09T10:02:44.4886024+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac90ff28-40ed-46a7-82ab-3845b09fb0d1" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="53bf25a3-7bb6-484d-b36a-69be7e4b19b0" parentExecutionId="ac90ff28-40ed-46a7-82ab-3845b09fb0d1" testId="81b2e40f-23ac-16e1-be8a-98e574e80501" testName="DefineNegativeStringNumber (-11,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0000725" startTime="2021-06-09T10:02:44.4886024+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53bf25a3-7bb6-484d-b36a-69be7e4b19b0" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="7ad87b0b-24cd-4729-990c-203f8f51cfd5" parentExecutionId="ac90ff28-40ed-46a7-82ab-3845b09fb0d1" testId="81b2e40f-23ac-16e1-be8a-98e574e80501" testName="DefineNegativeStringNumber (13.0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000030" startTime="2021-06-09T10:02:44.4886024+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ad87b0b-24cd-4729-990c-203f8f51cfd5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="5eedaa71-e866-47b6-8a5f-dc3e95268a67" parentExecutionId="ac90ff28-40ed-46a7-82ab-3845b09fb0d1" testId="81b2e40f-23ac-16e1-be8a-98e574e80501" testName="DefineNegativeStringNumber (0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0005696" startTime="2021-06-09T10:02:44.4886024+03:00" endTime="2021-06-09T10:02:44.4895982+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5eedaa71-e866-47b6-8a5f-dc3e95268a67" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+              <StackTrace>   at MSTesting.IsNegativeUnitTests.DefineNegativeStringNumber(String inputNumber, Boolean expectedResult) in C:\Data\Temp\MSTesting\MSTesting\IsNegativeUnitTests.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="822c3ad9-b980-49f2-b630-974d93286b65" testId="f2d1238a-396a-87b8-3887-60cf50ccef4f" testName="ReturnProductOfTwoFloatNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0001663" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="822c3ad9-b980-49f2-b630-974d93286b65" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="b10ca3f2-dc09-434f-967f-8d83d043bdc8" parentExecutionId="822c3ad9-b980-49f2-b630-974d93286b65" testId="f2d1238a-396a-87b8-3887-60cf50ccef4f" testName="ReturnProductOfTwoFloatNumbers (10,2,20)" computerName="EPBYMINW0AAA" duration="00:00:00.0000900" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b10ca3f2-dc09-434f-967f-8d83d043bdc8" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ca9f4fdd-3a2d-4946-bef9-6fe67a7b3019" parentExecutionId="822c3ad9-b980-49f2-b630-974d93286b65" testId="f2d1238a-396a-87b8-3887-60cf50ccef4f" testName="ReturnProductOfTwoFloatNumbers (-7,3.5,-24.5)" computerName="EPBYMINW0AAA" duration="00:00:00.0000025" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca9f4fdd-3a2d-4946-bef9-6fe67a7b3019" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="49f174e2-c29c-4995-8a74-6bf292bbe423" parentExecutionId="822c3ad9-b980-49f2-b630-974d93286b65" testId="f2d1238a-396a-87b8-3887-60cf50ccef4f" testName="ReturnProductOfTwoFloatNumbers (0,13,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000047" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49f174e2-c29c-4995-8a74-6bf292bbe423" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="deb84084-3aa4-4661-8471-d9b4699efa5a" parentExecutionId="822c3ad9-b980-49f2-b630-974d93286b65" testId="f2d1238a-396a-87b8-3887-60cf50ccef4f" testName="ReturnProductOfTwoFloatNumbers (15,-7.5,-112.5)" computerName="EPBYMINW0AAA" duration="00:00:00.0000016" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="deb84084-3aa4-4661-8471-d9b4699efa5a" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="dc4d9099-e56e-497b-846b-4a0fa557b32e" parentExecutionId="822c3ad9-b980-49f2-b630-974d93286b65" testId="f2d1238a-396a-87b8-3887-60cf50ccef4f" testName="ReturnProductOfTwoFloatNumbers (0,0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000016" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4925985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc4d9099-e56e-497b-846b-4a0fa557b32e" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="04aa1170-1694-41bf-a2d4-0d420f2f1520" testId="c4685b79-554c-35e0-0ed1-30486507ef2f" testName="ReturnSquareRootOfStringNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0019610" startTime="2021-06-09T10:02:44.5152692+03:00" endTime="2021-06-09T10:02:44.5172633+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04aa1170-1694-41bf-a2d4-0d420f2f1520" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="c94d75f8-9b1b-4dfc-a64a-6031fefd5e0a" parentExecutionId="04aa1170-1694-41bf-a2d4-0d420f2f1520" testId="c4685b79-554c-35e0-0ed1-30486507ef2f" testName="ReturnSquareRootOfStringNumber (4.0,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0019066" startTime="2021-06-09T10:02:44.5152692+03:00" endTime="2021-06-09T10:02:44.5172633+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c94d75f8-9b1b-4dfc-a64a-6031fefd5e0a" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.SqrtUnitTests.ReturnSquareRootOfStringNumber threw exception: &#xD;
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)&#xD;
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)&#xD;
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)&#xD;
+   at System.Convert.ToInt32(Object value)&#xD;
+   at CSharpCalculator.Calculator.Sqrt(Object a)&#xD;
+   at MSTesting.SqrtUnitTests.ReturnSquareRootOfStringNumber(String inputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\SqrtUnitTests.cs:line 50&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="61b2177c-6e3d-4f57-a313-cabe887b3478" parentExecutionId="04aa1170-1694-41bf-a2d4-0d420f2f1520" testId="c4685b79-554c-35e0-0ed1-30486507ef2f" testName="ReturnSquareRootOfStringNumber (16,4)" computerName="EPBYMINW0AAA" duration="00:00:00.0000042" startTime="2021-06-09T10:02:44.5152692+03:00" endTime="2021-06-09T10:02:44.5172633+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61b2177c-6e3d-4f57-a313-cabe887b3478" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="5c4072f4-a243-4799-bcb2-c3b9a620d5af" parentExecutionId="04aa1170-1694-41bf-a2d4-0d420f2f1520" testId="c4685b79-554c-35e0-0ed1-30486507ef2f" testName="ReturnSquareRootOfStringNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000021" startTime="2021-06-09T10:02:44.5152692+03:00" endTime="2021-06-09T10:02:44.5172633+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c4072f4-a243-4799-bcb2-c3b9a620d5af" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="866430a2-d538-4899-8683-3ffdb16aaf41" testId="30dce7b5-94c1-62bd-ce17-ff389e5707e4" testName="ReturnSumOfTwoIntNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0021599" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4734762+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="866430a2-d538-4899-8683-3ffdb16aaf41" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="89c5e21b-76f8-409b-9af1-ce28a77d323a" parentExecutionId="866430a2-d538-4899-8683-3ffdb16aaf41" testId="30dce7b5-94c1-62bd-ce17-ff389e5707e4" testName="ReturnSumOfTwoIntNumbers (6,7,13)" computerName="EPBYMINW0AAA" duration="00:00:00.0006649" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4734762+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89c5e21b-76f8-409b-9af1-ce28a77d323a" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 35&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0f007070-13df-496c-af45-20e0a32199a1" parentExecutionId="866430a2-d538-4899-8683-3ffdb16aaf41" testId="30dce7b5-94c1-62bd-ce17-ff389e5707e4" testName="ReturnSumOfTwoIntNumbers (-2,-3,-5)" computerName="EPBYMINW0AAA" duration="00:00:00.0004800" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4734762+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f007070-13df-496c-af45-20e0a32199a1" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 35&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e5043ab2-b9fb-4114-9d9e-20f9eebc1eb2" parentExecutionId="866430a2-d538-4899-8683-3ffdb16aaf41" testId="30dce7b5-94c1-62bd-ce17-ff389e5707e4" testName="ReturnSumOfTwoIntNumbers (14,-20,-6)" computerName="EPBYMINW0AAA" duration="00:00:00.0004677" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4734762+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5043ab2-b9fb-4114-9d9e-20f9eebc1eb2" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 35&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0ae2334c-d442-46e7-84a7-c8cd5c915d87" parentExecutionId="866430a2-d538-4899-8683-3ffdb16aaf41" testId="30dce7b5-94c1-62bd-ce17-ff389e5707e4" testName="ReturnSumOfTwoIntNumbers (4,0,4)" computerName="EPBYMINW0AAA" duration="00:00:00.0004729" startTime="2021-06-09T10:02:44.4648176+03:00" endTime="2021-06-09T10:02:44.4734762+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ae2334c-d442-46e7-84a7-c8cd5c915d87" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoIntNumbers(Int32 firstInputNumber, Int32 secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 35&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="f48c3d4e-ad79-427e-960b-5d3b60010fc4" testId="33cc40d9-7ed5-0b90-6375-9ff7c803ce55" testName="ReturnSubtractingOfTwoDoubleNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0003905" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5182820+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f48c3d4e-ad79-427e-960b-5d3b60010fc4" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="029bf793-3641-4625-b884-340c14698c8c" parentExecutionId="f48c3d4e-ad79-427e-960b-5d3b60010fc4" testId="33cc40d9-7ed5-0b90-6375-9ff7c803ce55" testName="ReturnSubtractingOfTwoDoubleNumbers (4,2,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0003150" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5182820+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="029bf793-3641-4625-b884-340c14698c8c" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="48df1be5-88f7-4fa4-820b-453a7c6e3002" parentExecutionId="f48c3d4e-ad79-427e-960b-5d3b60010fc4" testId="33cc40d9-7ed5-0b90-6375-9ff7c803ce55" testName="ReturnSubtractingOfTwoDoubleNumbers (-6,-3,-3)" computerName="EPBYMINW0AAA" duration="00:00:00.0000035" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5182820+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48df1be5-88f7-4fa4-820b-453a7c6e3002" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="182115be-a03f-4612-b584-da12a7644e09" parentExecutionId="f48c3d4e-ad79-427e-960b-5d3b60010fc4" testId="33cc40d9-7ed5-0b90-6375-9ff7c803ce55" testName="ReturnSubtractingOfTwoDoubleNumbers (-15,1,-16)" computerName="EPBYMINW0AAA" duration="00:00:00.0000022" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5182820+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="182115be-a03f-4612-b584-da12a7644e09" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="07b8feb0-6a80-40ec-9c06-730ec44a6aeb" parentExecutionId="f48c3d4e-ad79-427e-960b-5d3b60010fc4" testId="33cc40d9-7ed5-0b90-6375-9ff7c803ce55" testName="ReturnSubtractingOfTwoDoubleNumbers (4.5,0,4.5)" computerName="EPBYMINW0AAA" duration="00:00:00.0000018" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5182820+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07b8feb0-6a80-40ec-9c06-730ec44a6aeb" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="362e94d0-13b6-4907-9868-26a69077bf92" testId="6239f6dd-cf03-c806-32bc-0b9932deab33" testName="ReturnCosineOfFloatNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0002439" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="362e94d0-13b6-4907-9868-26a69077bf92" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="aa2a1d29-6a93-4bb8-968e-1fbcf3407bbe" parentExecutionId="362e94d0-13b6-4907-9868-26a69077bf92" testId="6239f6dd-cf03-c806-32bc-0b9932deab33" testName="ReturnCosineOfFloatNumber (0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0001316" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa2a1d29-6a93-4bb8-968e-1fbcf3407bbe" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="fe7d9031-676a-4d6b-b88e-98b4bb3c7309" parentExecutionId="362e94d0-13b6-4907-9868-26a69077bf92" testId="6239f6dd-cf03-c806-32bc-0b9932deab33" testName="ReturnCosineOfFloatNumber (60,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000055" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe7d9031-676a-4d6b-b88e-98b4bb3c7309" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="c8c07bc6-7ac3-43e0-ab1f-4a50837229de" parentExecutionId="362e94d0-13b6-4907-9868-26a69077bf92" testId="6239f6dd-cf03-c806-32bc-0b9932deab33" testName="ReturnCosineOfFloatNumber (90,-0.44807361612917)" computerName="EPBYMINW0AAA" duration="00:00:00.0000019" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8c07bc6-7ac3-43e0-ab1f-4a50837229de" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="15e4371b-d9fe-4d19-b9ae-aec30b756a22" parentExecutionId="362e94d0-13b6-4907-9868-26a69077bf92" testId="6239f6dd-cf03-c806-32bc-0b9932deab33" testName="ReturnCosineOfFloatNumber (-60,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000017" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15e4371b-d9fe-4d19-b9ae-aec30b756a22" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcee9448-57ad-4307-b884-bcd92bcb125c" testId="024ea812-486b-a6a6-ae13-02aca705ba76" testName="ReturnSubtractingOfTwoIntNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0002236" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcee9448-57ad-4307-b884-bcd92bcb125c" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="65268a80-171a-456b-bee2-c6a56533d7ae" parentExecutionId="fcee9448-57ad-4307-b884-bcd92bcb125c" testId="024ea812-486b-a6a6-ae13-02aca705ba76" testName="ReturnSubtractingOfTwoIntNumbers (13,7,6)" computerName="EPBYMINW0AAA" duration="00:00:00.0000964" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65268a80-171a-456b-bee2-c6a56533d7ae" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="268998bb-107c-4b9a-a5cc-465746643df6" parentExecutionId="fcee9448-57ad-4307-b884-bcd92bcb125c" testId="024ea812-486b-a6a6-ae13-02aca705ba76" testName="ReturnSubtractingOfTwoIntNumbers (-5,-3,-2)" computerName="EPBYMINW0AAA" duration="00:00:00.0000027" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="268998bb-107c-4b9a-a5cc-465746643df6" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="6a6e6352-7152-4bf4-99c4-fb156e100d09" parentExecutionId="fcee9448-57ad-4307-b884-bcd92bcb125c" testId="024ea812-486b-a6a6-ae13-02aca705ba76" testName="ReturnSubtractingOfTwoIntNumbers (-6,14,-20)" computerName="EPBYMINW0AAA" duration="00:00:00.0000069" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a6e6352-7152-4bf4-99c4-fb156e100d09" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3ee3a406-79b6-46e7-af29-c0651493f9dc" parentExecutionId="fcee9448-57ad-4307-b884-bcd92bcb125c" testId="024ea812-486b-a6a6-ae13-02aca705ba76" testName="ReturnSubtractingOfTwoIntNumbers (4,0,4)" computerName="EPBYMINW0AAA" duration="00:00:00.0000038" startTime="2021-06-09T10:02:44.5182820+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ee3a406-79b6-46e7-af29-c0651493f9dc" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="247145e2-a07b-43cd-ad23-62d49388ea6f" testId="a0448219-705f-0990-91fa-0c0aed477283" testName="ReturnCosineOfStringNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0003385" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="247145e2-a07b-43cd-ad23-62d49388ea6f" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="1707c46c-5f45-41fc-9fa2-30f7e37e44a2" parentExecutionId="247145e2-a07b-43cd-ad23-62d49388ea6f" testId="a0448219-705f-0990-91fa-0c0aed477283" testName="ReturnCosineOfStringNumber (0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0001661" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1707c46c-5f45-41fc-9fa2-30f7e37e44a2" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3d7de2ed-0e04-4510-8ea8-8de1c70d3f7b" parentExecutionId="247145e2-a07b-43cd-ad23-62d49388ea6f" testId="a0448219-705f-0990-91fa-0c0aed477283" testName="ReturnCosineOfStringNumber (60,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000044" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d7de2ed-0e04-4510-8ea8-8de1c70d3f7b" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="29eaab29-3a02-4c74-8181-8ff6050f3051" parentExecutionId="247145e2-a07b-43cd-ad23-62d49388ea6f" testId="a0448219-705f-0990-91fa-0c0aed477283" testName="ReturnCosineOfStringNumber (90.0,-0.44807361612917)" computerName="EPBYMINW0AAA" duration="00:00:00.0000026" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29eaab29-3a02-4c74-8181-8ff6050f3051" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="da86e6ed-aad8-4ca1-91f6-392f07566d25" parentExecutionId="247145e2-a07b-43cd-ad23-62d49388ea6f" testId="a0448219-705f-0990-91fa-0c0aed477283" testName="ReturnCosineOfStringNumber (-60.00,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000026" startTime="2021-06-09T10:02:44.4796259+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da86e6ed-aad8-4ca1-91f6-392f07566d25" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="35e8edba-5729-41bf-8acd-c2a5bcd13be3" testId="3f90ad56-ee2c-0625-be79-efe80fd5eef8" testName="ReturnCosineOfDoubleNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0003793" startTime="2021-06-09T10:02:44.4776299+03:00" endTime="2021-06-09T10:02:44.4786278+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35e8edba-5729-41bf-8acd-c2a5bcd13be3" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="e9e2257d-ff79-4788-b7de-1fee4cbc6796" parentExecutionId="35e8edba-5729-41bf-8acd-c2a5bcd13be3" testId="3f90ad56-ee2c-0625-be79-efe80fd5eef8" testName="ReturnCosineOfDoubleNumber (0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0003098" startTime="2021-06-09T10:02:44.4776299+03:00" endTime="2021-06-09T10:02:44.4786278+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9e2257d-ff79-4788-b7de-1fee4cbc6796" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ef65c8e0-1ef7-45ac-915f-ec1fd2bc965d" parentExecutionId="35e8edba-5729-41bf-8acd-c2a5bcd13be3" testId="3f90ad56-ee2c-0625-be79-efe80fd5eef8" testName="ReturnCosineOfDoubleNumber (60,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000072" startTime="2021-06-09T10:02:44.4776299+03:00" endTime="2021-06-09T10:02:44.4786278+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef65c8e0-1ef7-45ac-915f-ec1fd2bc965d" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a13c4a19-5e7d-4921-b967-e6ad68ab43d8" parentExecutionId="35e8edba-5729-41bf-8acd-c2a5bcd13be3" testId="3f90ad56-ee2c-0625-be79-efe80fd5eef8" testName="ReturnCosineOfDoubleNumber (90,-0.44807361612917)" computerName="EPBYMINW0AAA" duration="00:00:00.0000018" startTime="2021-06-09T10:02:44.4776299+03:00" endTime="2021-06-09T10:02:44.4786278+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a13c4a19-5e7d-4921-b967-e6ad68ab43d8" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d3f79c39-1d4e-49b6-b26e-dcaf16955ab5" parentExecutionId="35e8edba-5729-41bf-8acd-c2a5bcd13be3" testId="3f90ad56-ee2c-0625-be79-efe80fd5eef8" testName="ReturnCosineOfDoubleNumber (-60,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000044" startTime="2021-06-09T10:02:44.4776299+03:00" endTime="2021-06-09T10:02:44.4786278+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3f79c39-1d4e-49b6-b26e-dcaf16955ab5" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c32bacb-db72-4c43-ac99-c8cb0dfb7a05" testId="a6a58d2b-69bb-da39-91b3-9cd20e2e85e5" testName="ReturnSquareRootOfNegativeNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0001235" startTime="2021-06-09T10:02:44.5172633+03:00" endTime="2021-06-09T10:02:44.5182820+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c32bacb-db72-4c43-ac99-c8cb0dfb7a05" />
+    <UnitTestResult executionId="045f77e1-93e1-407f-8f07-fd565f646ece" testId="d8e55f39-09b8-9d79-e662-0c7e53f0d5b8" testName="ReturnDivisionOfTwoDoubleNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0004215" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="045f77e1-93e1-407f-8f07-fd565f646ece" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="d8e200bd-dfd6-4c01-80bc-17726f9b6f37" parentExecutionId="045f77e1-93e1-407f-8f07-fd565f646ece" testId="d8e55f39-09b8-9d79-e662-0c7e53f0d5b8" testName="ReturnDivisionOfTwoDoubleNumbers (6,2,3)" computerName="EPBYMINW0AAA" duration="00:00:00.0003309" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8e200bd-dfd6-4c01-80bc-17726f9b6f37" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="af7850fc-f162-4a4f-bb30-e220785a4c89" parentExecutionId="045f77e1-93e1-407f-8f07-fd565f646ece" testId="d8e55f39-09b8-9d79-e662-0c7e53f0d5b8" testName="ReturnDivisionOfTwoDoubleNumbers (-6,1.5,-4)" computerName="EPBYMINW0AAA" duration="00:00:00.0000034" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af7850fc-f162-4a4f-bb30-e220785a4c89" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a0c8288d-f796-4224-83a4-3eb64faaa85a" parentExecutionId="045f77e1-93e1-407f-8f07-fd565f646ece" testId="d8e55f39-09b8-9d79-e662-0c7e53f0d5b8" testName="ReturnDivisionOfTwoDoubleNumbers (0,10,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000019" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0c8288d-f796-4224-83a4-3eb64faaa85a" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e51a19de-89ac-47d8-aa6e-9a5b0c3b1256" parentExecutionId="045f77e1-93e1-407f-8f07-fd565f646ece" testId="d8e55f39-09b8-9d79-e662-0c7e53f0d5b8" testName="ReturnDivisionOfTwoDoubleNumbers (8,-2,-4)" computerName="EPBYMINW0AAA" duration="00:00:00.0000023" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4806224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e51a19de-89ac-47d8-aa6e-9a5b0c3b1256" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="694e5e81-7c2f-40ff-b1ec-bbb6bcb80070" testId="608b0384-2986-3396-e582-25e15630a65b" testName="ReturnAbsoluteOfDoubleNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0317504" startTime="2021-06-09T10:02:44.2257006+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="694e5e81-7c2f-40ff-b1ec-bbb6bcb80070" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="bba61a22-41f4-4425-82c7-cc2f50229ba5" parentExecutionId="694e5e81-7c2f-40ff-b1ec-bbb6bcb80070" testId="608b0384-2986-3396-e582-25e15630a65b" testName="ReturnAbsoluteOfDoubleNumber (1,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0061484" startTime="2021-06-09T10:02:44.2257006+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bba61a22-41f4-4425-82c7-cc2f50229ba5" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="cb596ceb-e576-4ea9-926a-f24809e20309" parentExecutionId="694e5e81-7c2f-40ff-b1ec-bbb6bcb80070" testId="608b0384-2986-3396-e582-25e15630a65b" testName="ReturnAbsoluteOfDoubleNumber (-2,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0000178" startTime="2021-06-09T10:02:44.2257006+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb596ceb-e576-4ea9-926a-f24809e20309" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="44266d88-5c6f-4ed5-8a42-18fa4c44c51a" parentExecutionId="694e5e81-7c2f-40ff-b1ec-bbb6bcb80070" testId="608b0384-2986-3396-e582-25e15630a65b" testName="ReturnAbsoluteOfDoubleNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000023" startTime="2021-06-09T10:02:44.2257006+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44266d88-5c6f-4ed5-8a42-18fa4c44c51a" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="abff02f2-cb20-4bd7-851d-1bcccefc1378" testId="d893ae18-30bc-2215-8920-a8a8346f71aa" testName="DefinePositiveIntNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0001686" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abff02f2-cb20-4bd7-851d-1bcccefc1378" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="25ffdafb-8dee-45f7-a25b-657030b053c7" parentExecutionId="abff02f2-cb20-4bd7-851d-1bcccefc1378" testId="d893ae18-30bc-2215-8920-a8a8346f71aa" testName="DefinePositiveIntNumber (-10,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0001205" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25ffdafb-8dee-45f7-a25b-657030b053c7" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="2e8cfb7e-c641-44ba-9e15-8cc1335a17f5" parentExecutionId="abff02f2-cb20-4bd7-851d-1bcccefc1378" testId="d893ae18-30bc-2215-8920-a8a8346f71aa" testName="DefinePositiveIntNumber (15,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0000025" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e8cfb7e-c641-44ba-9e15-8cc1335a17f5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="85bf5eb3-971c-4990-a63d-daad78b1afc4" parentExecutionId="abff02f2-cb20-4bd7-851d-1bcccefc1378" testId="d893ae18-30bc-2215-8920-a8a8346f71aa" testName="DefinePositiveIntNumber (0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000015" startTime="2021-06-09T10:02:44.4895982+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85bf5eb3-971c-4990-a63d-daad78b1afc4" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="81488623-7984-406b-9b97-239485126cb2" testId="5cb915aa-1aba-f45f-6777-b882c68196fb" testName="DefinePositiveStringNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0002156" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81488623-7984-406b-9b97-239485126cb2" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="1581cba5-c238-4039-becd-eaf4b28680eb" parentExecutionId="81488623-7984-406b-9b97-239485126cb2" testId="5cb915aa-1aba-f45f-6777-b882c68196fb" testName="DefinePositiveStringNumber (-15.5,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0001289" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1581cba5-c238-4039-becd-eaf4b28680eb" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="394c6626-1b9d-43ec-bec6-7c872369f066" parentExecutionId="81488623-7984-406b-9b97-239485126cb2" testId="5cb915aa-1aba-f45f-6777-b882c68196fb" testName="DefinePositiveStringNumber (133,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0000193" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="394c6626-1b9d-43ec-bec6-7c872369f066" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="962a96b0-a304-4ddb-bde8-7bfe14fde165" parentExecutionId="81488623-7984-406b-9b97-239485126cb2" testId="5cb915aa-1aba-f45f-6777-b882c68196fb" testName="DefinePositiveStringNumber (0.00,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000217" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="962a96b0-a304-4ddb-bde8-7bfe14fde165" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="f81401d9-e5ff-49f3-8119-8e28714d67a2" testId="aa520772-57ca-ce27-bf4b-e41b935e9b97" testName="ReturnDivisionOfTwoIntNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0001823" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f81401d9-e5ff-49f3-8119-8e28714d67a2" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="ab955b79-bd81-4ab4-9838-33cdafbdd0d3" parentExecutionId="f81401d9-e5ff-49f3-8119-8e28714d67a2" testId="aa520772-57ca-ce27-bf4b-e41b935e9b97" testName="ReturnDivisionOfTwoIntNumbers (5,2,2.5)" computerName="EPBYMINW0AAA" duration="00:00:00.0001113" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab955b79-bd81-4ab4-9838-33cdafbdd0d3" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="62b6887c-c5cf-49cc-b724-a741320eb256" parentExecutionId="f81401d9-e5ff-49f3-8119-8e28714d67a2" testId="aa520772-57ca-ce27-bf4b-e41b935e9b97" testName="ReturnDivisionOfTwoIntNumbers (-16,2,-8)" computerName="EPBYMINW0AAA" duration="00:00:00.0000028" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62b6887c-c5cf-49cc-b724-a741320eb256" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="36285baf-8661-4b41-98c1-8bb6ff5c2e74" parentExecutionId="f81401d9-e5ff-49f3-8119-8e28714d67a2" testId="aa520772-57ca-ce27-bf4b-e41b935e9b97" testName="ReturnDivisionOfTwoIntNumbers (0,12,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000019" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36285baf-8661-4b41-98c1-8bb6ff5c2e74" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="94b9d7c3-2410-429f-96ad-fc0cfb787367" parentExecutionId="f81401d9-e5ff-49f3-8119-8e28714d67a2" testId="aa520772-57ca-ce27-bf4b-e41b935e9b97" testName="ReturnDivisionOfTwoIntNumbers (14,-2,-7)" computerName="EPBYMINW0AAA" duration="00:00:00.0000019" startTime="2021-06-09T10:02:44.4806224+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94b9d7c3-2410-429f-96ad-fc0cfb787367" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" testId="785e7d98-3fff-17e8-78c5-1c17ff7d451a" testName="ReturnSumOfTwoFloatNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0021135" startTime="2021-06-09T10:02:44.4734762+03:00" endTime="2021-06-09T10:02:44.4756367+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="670b377b-a562-44b9-8e38-2326df16bd13" parentExecutionId="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" testId="785e7d98-3fff-17e8-78c5-1c17ff7d451a" testName="ReturnSumOfTwoFloatNumbers (3,3,6)" computerName="EPBYMINW0AAA" duration="00:00:00.0006137" startTime="2021-06-09T10:02:44.4734762+03:00" endTime="2021-06-09T10:02:44.4756367+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="670b377b-a562-44b9-8e38-2326df16bd13" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 46&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c8dec8aa-d3dc-4d79-a683-53e0f916aa0d" parentExecutionId="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" testId="785e7d98-3fff-17e8-78c5-1c17ff7d451a" testName="ReturnSumOfTwoFloatNumbers (-3,-3,-6)" computerName="EPBYMINW0AAA" duration="00:00:00.0004801" startTime="2021-06-09T10:02:44.4734762+03:00" endTime="2021-06-09T10:02:44.4756367+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8dec8aa-d3dc-4d79-a683-53e0f916aa0d" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 46&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e295b509-6892-4020-a04f-e7d0b19cf046" parentExecutionId="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" testId="785e7d98-3fff-17e8-78c5-1c17ff7d451a" testName="ReturnSumOfTwoFloatNumbers (11,-14,-3)" computerName="EPBYMINW0AAA" duration="00:00:00.0004722" startTime="2021-06-09T10:02:44.4734762+03:00" endTime="2021-06-09T10:02:44.4756367+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e295b509-6892-4020-a04f-e7d0b19cf046" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 46&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c0d015cd-223e-4df0-9eb3-e29c844ba24c" parentExecutionId="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" testId="785e7d98-3fff-17e8-78c5-1c17ff7d451a" testName="ReturnSumOfTwoFloatNumbers (8,0,8)" computerName="EPBYMINW0AAA" duration="00:00:00.0004732" startTime="2021-06-09T10:02:44.4734762+03:00" endTime="2021-06-09T10:02:44.4756367+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0d015cd-223e-4df0-9eb3-e29c844ba24c" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoFloatNumbers(Single firstInputNumber, Single secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 46&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2e13838-e07d-48ab-908b-5adbe74adda5" testId="8100dbc2-43c6-6fea-747f-01476eb9c640" testName="ReturnAbsoluteOfStringNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0665976" startTime="2021-06-09T10:02:44.4018347+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e13838-e07d-48ab-908b-5adbe74adda5" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="b140ff7d-16c9-472c-9e21-12a1629106ca" parentExecutionId="e2e13838-e07d-48ab-908b-5adbe74adda5" testId="8100dbc2-43c6-6fea-747f-01476eb9c640" testName="ReturnAbsoluteOfStringNumber (5,5)" computerName="EPBYMINW0AAA" duration="00:00:00.0000978" startTime="2021-06-09T10:02:44.4018347+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b140ff7d-16c9-472c-9e21-12a1629106ca" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d7906a93-6eed-4b66-a2d2-3967fab19dc4" parentExecutionId="e2e13838-e07d-48ab-908b-5adbe74adda5" testId="8100dbc2-43c6-6fea-747f-01476eb9c640" testName="ReturnAbsoluteOfStringNumber (-5.0,5)" computerName="EPBYMINW0AAA" duration="00:00:00.0653834" startTime="2021-06-09T10:02:44.4018347+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7906a93-6eed-4b66-a2d2-3967fab19dc4" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Abs(Object a)&#xD;
+   at MSTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber(String inputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AbsUnitTests.cs:line 53&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="738a33bb-9770-400d-a524-fe56da18f433" parentExecutionId="e2e13838-e07d-48ab-908b-5adbe74adda5" testId="8100dbc2-43c6-6fea-747f-01476eb9c640" testName="ReturnAbsoluteOfStringNumber (5.00,5)" computerName="EPBYMINW0AAA" duration="00:00:00.0010421" startTime="2021-06-09T10:02:44.4018347+03:00" endTime="2021-06-09T10:02:44.4648176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="738a33bb-9770-400d-a524-fe56da18f433" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Abs(Object a)&#xD;
+   at MSTesting.AbsUnitTests.ReturnAbsoluteOfStringNumber(String inputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AbsUnitTests.cs:line 53&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="22e00ce6-f70d-4282-8904-e97e5c252158" testId="36fa2137-a24d-5321-e27a-8bfd991b55dc" testName="ReturnSubtractingOfTwoFloatNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0001591" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22e00ce6-f70d-4282-8904-e97e5c252158" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="23cac36a-81b9-4228-9ffe-460dacb48ed2" parentExecutionId="22e00ce6-f70d-4282-8904-e97e5c252158" testId="36fa2137-a24d-5321-e27a-8bfd991b55dc" testName="ReturnSubtractingOfTwoFloatNumbers (4.5,2.5,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0000940" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23cac36a-81b9-4228-9ffe-460dacb48ed2" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d6b8643f-f3f9-4ee3-9a54-69f0ee9dfe6b" parentExecutionId="22e00ce6-f70d-4282-8904-e97e5c252158" testId="36fa2137-a24d-5321-e27a-8bfd991b55dc" testName="ReturnSubtractingOfTwoFloatNumbers (-6,-3,-3)" computerName="EPBYMINW0AAA" duration="00:00:00.0000028" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6b8643f-f3f9-4ee3-9a54-69f0ee9dfe6b" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="8be2b349-a5c1-4232-9921-12034502f893" parentExecutionId="22e00ce6-f70d-4282-8904-e97e5c252158" testId="36fa2137-a24d-5321-e27a-8bfd991b55dc" testName="ReturnSubtractingOfTwoFloatNumbers (-15,1,-16)" computerName="EPBYMINW0AAA" duration="00:00:00.0000046" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8be2b349-a5c1-4232-9921-12034502f893" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="aa62b43d-a0e9-4a9c-87b0-dbf181d9b760" parentExecutionId="22e00ce6-f70d-4282-8904-e97e5c252158" testId="36fa2137-a24d-5321-e27a-8bfd991b55dc" testName="ReturnSubtractingOfTwoFloatNumbers (4.5,0,4.5)" computerName="EPBYMINW0AAA" duration="00:00:00.0000017" startTime="2021-06-09T10:02:44.5192580+03:00" endTime="2021-06-09T10:02:44.5192580+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa62b43d-a0e9-4a9c-87b0-dbf181d9b760" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d5ef2f4-a2ea-423c-b648-bf389e67ebe5" testId="d1211205-75fe-f09e-3b4d-591e8fc58434" testName="ReturnSquareRootOfDoubleNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0003673" startTime="2021-06-09T10:02:44.5132755+03:00" endTime="2021-06-09T10:02:44.5142716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d5ef2f4-a2ea-423c-b648-bf389e67ebe5" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="7ba52725-7d1e-4b00-88e6-9560ea72587a" parentExecutionId="2d5ef2f4-a2ea-423c-b648-bf389e67ebe5" testId="d1211205-75fe-f09e-3b4d-591e8fc58434" testName="ReturnSquareRootOfDoubleNumber (4,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0003072" startTime="2021-06-09T10:02:44.5132755+03:00" endTime="2021-06-09T10:02:44.5142716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ba52725-7d1e-4b00-88e6-9560ea72587a" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="5b6f5a21-e389-4a6c-a341-1aec237fe41a" parentExecutionId="2d5ef2f4-a2ea-423c-b648-bf389e67ebe5" testId="d1211205-75fe-f09e-3b4d-591e8fc58434" testName="ReturnSquareRootOfDoubleNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000033" startTime="2021-06-09T10:02:44.5132755+03:00" endTime="2021-06-09T10:02:44.5142716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b6f5a21-e389-4a6c-a341-1aec237fe41a" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0044981" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4466afb6-e957-4a9e-bf10-efc5c37eef1c" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="c49eb22b-0aa8-49ba-bf57-3ddcdc1e8c2a" parentExecutionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers (4,2,16)" computerName="EPBYMINW0AAA" duration="00:00:00.0007858" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c49eb22b-0aa8-49ba-bf57-3ddcdc1e8c2a" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 68&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a48c91a1-2325-46ff-bd3a-1fcc3afcd70c" parentExecutionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers (-2.00,3.00,-8)" computerName="EPBYMINW0AAA" duration="00:00:00.0005180" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a48c91a1-2325-46ff-bd3a-1fcc3afcd70c" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 68&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="4a844054-b235-48f8-9528-9978a388bebb" parentExecutionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers (0,5.000,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0006450" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a844054-b235-48f8-9528-9978a388bebb" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 68&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="845318d1-92ec-4c2a-9071-c3843d1d70e5" parentExecutionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers (5.0000,0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0005069" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="845318d1-92ec-4c2a-9071-c3843d1d70e5" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 68&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="88e302ac-c2cf-4d62-8ffc-ce47db1aad31" parentExecutionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers (10.0,-1.0,0.1)" computerName="EPBYMINW0AAA" duration="00:00:00.0006368" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88e302ac-c2cf-4d62-8ffc-ce47db1aad31" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 68&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c07c6dbb-4bb8-4f7a-89ae-2590c355dfc7" parentExecutionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers (4.00,0.50,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0005534" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c07c6dbb-4bb8-4f7a-89ae-2590c355dfc7" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 68&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a8d0064c-6ef5-47fe-80ab-b1daf85fc643" parentExecutionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" testName="ReturnValueOfPowerForTwoStringNumbers (0.000,0.000,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0006924" startTime="2021-06-09T10:02:44.5071126+03:00" endTime="2021-06-09T10:02:44.5115882+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8d0064c-6ef5-47fe-80ab-b1daf85fc643" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 68&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0053618" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4eb2583b-004b-4275-824b-7b40c9a47af9" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="9bf54d50-7a98-4a58-b257-233311ec077b" parentExecutionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers (4,2,16)" computerName="EPBYMINW0AAA" duration="00:00:00.0012036" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bf54d50-7a98-4a58-b257-233311ec077b" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 27&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="6a05c507-334b-4327-b7b5-ac1ceb99d948" parentExecutionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers (-2,3,-8)" computerName="EPBYMINW0AAA" duration="00:00:00.0005848" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a05c507-334b-4327-b7b5-ac1ceb99d948" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 27&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="d2a388a3-1d62-44f7-935c-d1b39c023e6a" parentExecutionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers (0,5,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0007009" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2a388a3-1d62-44f7-935c-d1b39c023e6a" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 27&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="96e3bd03-e10a-4fe7-9c73-41c2b8ab561c" parentExecutionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers (5,0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0007115" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96e3bd03-e10a-4fe7-9c73-41c2b8ab561c" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 27&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="1c3ad293-5545-4c64-a0cb-4f85c709165d" parentExecutionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers (10,-1,0.1)" computerName="EPBYMINW0AAA" duration="00:00:00.0006532" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c3ad293-5545-4c64-a0cb-4f85c709165d" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 27&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="f61fe635-88ef-4e91-915d-3c20979d7ffc" parentExecutionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers (4,0.5,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0006347" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f61fe635-88ef-4e91-915d-3c20979d7ffc" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 27&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8cecd827-ed25-4bdb-9084-c9247da400af" parentExecutionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" testName="ReturnValueOfPowerForTwoDoubleNumbers (0,0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0006700" startTime="2021-06-09T10:02:44.4925985+03:00" endTime="2021-06-09T10:02:44.4985821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cecd827-ed25-4bdb-9084-c9247da400af" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTesting.PowUnitTests.ReturnValueOfPowerForTwoDoubleNumbers(Double firstInputNumber, Double secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\PowUnitTests.cs:line 27&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="2af455ca-73b3-482e-84f8-c27f62d93064" testId="87ab78f8-03ec-3d2b-9c83-24f47de2e913" testName="ReturnSumOfTwoStringNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0025416" startTime="2021-06-09T10:02:44.4756367+03:00" endTime="2021-06-09T10:02:44.4776299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2af455ca-73b3-482e-84f8-c27f62d93064" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="bebadf9b-564f-4a7e-87d7-1b4e2b8b4003" parentExecutionId="2af455ca-73b3-482e-84f8-c27f62d93064" testId="87ab78f8-03ec-3d2b-9c83-24f47de2e913" testName="ReturnSumOfTwoStringNumbers (4,3,7)" computerName="EPBYMINW0AAA" duration="00:00:00.0005754" startTime="2021-06-09T10:02:44.4756367+03:00" endTime="2021-06-09T10:02:44.4776299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bebadf9b-564f-4a7e-87d7-1b4e2b8b4003" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 57&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e929af73-43c4-461a-8a17-8850f9658b25" parentExecutionId="2af455ca-73b3-482e-84f8-c27f62d93064" testId="87ab78f8-03ec-3d2b-9c83-24f47de2e913" testName="ReturnSumOfTwoStringNumbers (-9.0,-3.0,-12)" computerName="EPBYMINW0AAA" duration="00:00:00.0006451" startTime="2021-06-09T10:02:44.4756367+03:00" endTime="2021-06-09T10:02:44.4776299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e929af73-43c4-461a-8a17-8850f9658b25" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 57&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="dad1b4d0-b65a-4647-9dda-4ab9caef01d4" parentExecutionId="2af455ca-73b3-482e-84f8-c27f62d93064" testId="87ab78f8-03ec-3d2b-9c83-24f47de2e913" testName="ReturnSumOfTwoStringNumbers (15,-16.00,-1)" computerName="EPBYMINW0AAA" duration="00:00:00.0005138" startTime="2021-06-09T10:02:44.4756367+03:00" endTime="2021-06-09T10:02:44.4776299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dad1b4d0-b65a-4647-9dda-4ab9caef01d4" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 57&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="ba14de3f-e718-4c19-ab33-d3358cba47f0" parentExecutionId="2af455ca-73b3-482e-84f8-c27f62d93064" testId="87ab78f8-03ec-3d2b-9c83-24f47de2e913" testName="ReturnSumOfTwoStringNumbers (4.0,0,4)" computerName="EPBYMINW0AAA" duration="00:00:00.0006831" startTime="2021-06-09T10:02:44.4756367+03:00" endTime="2021-06-09T10:02:44.4776299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba14de3f-e718-4c19-ab33-d3358cba47f0" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at MSTesting.AddUnitTests.ReturnSumOfTwoStringNumbers(String firstInputNumber, String secondInputNumber, Double expectedResult) in C:\Data\Temp\MSTesting\MSTesting\AddUnitTests.cs:line 57&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="b26a4243-d7a3-4659-91f0-5a64898bb9f1" testId="4348f80d-908d-ec32-cfbc-ea8bda297c5c" testName="DefineNegativeIntNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0010437" startTime="2021-06-09T10:02:44.4866075+03:00" endTime="2021-06-09T10:02:44.4876038+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b26a4243-d7a3-4659-91f0-5a64898bb9f1" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="4d8f1ac8-4428-4c7b-9fec-58898109928b" parentExecutionId="b26a4243-d7a3-4659-91f0-5a64898bb9f1" testId="4348f80d-908d-ec32-cfbc-ea8bda297c5c" testName="DefineNegativeIntNumber (-26,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0001081" startTime="2021-06-09T10:02:44.4866075+03:00" endTime="2021-06-09T10:02:44.4876038+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d8f1ac8-4428-4c7b-9fec-58898109928b" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="468e66fa-1268-46b2-b450-18a91872a148" parentExecutionId="b26a4243-d7a3-4659-91f0-5a64898bb9f1" testId="4348f80d-908d-ec32-cfbc-ea8bda297c5c" testName="DefineNegativeIntNumber (16,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000028" startTime="2021-06-09T10:02:44.4866075+03:00" endTime="2021-06-09T10:02:44.4876038+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="468e66fa-1268-46b2-b450-18a91872a148" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0a33ef4a-1a82-4605-81d0-3dd509596899" parentExecutionId="b26a4243-d7a3-4659-91f0-5a64898bb9f1" testId="4348f80d-908d-ec32-cfbc-ea8bda297c5c" testName="DefineNegativeIntNumber (0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0008776" startTime="2021-06-09T10:02:44.4866075+03:00" endTime="2021-06-09T10:02:44.4876038+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a33ef4a-1a82-4605-81d0-3dd509596899" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+              <StackTrace>   at MSTesting.IsNegativeUnitTests.DefineNegativeIntNumber(Int32 inputNumber, Boolean expectedResult) in C:\Data\Temp\MSTesting\MSTesting\IsNegativeUnitTests.cs:line 34&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="e255ebea-ceb2-46ac-b029-d46512c30c83" testId="8ff26f91-dc62-252b-2ce7-fdc168e57222" testName="ReturnSinusOfDoubleNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0004116" startTime="2021-06-09T10:02:44.5115882+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e255ebea-ceb2-46ac-b029-d46512c30c83" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="a1f9e34e-85a8-4f13-8317-71304b3114d7" parentExecutionId="e255ebea-ceb2-46ac-b029-d46512c30c83" testId="8ff26f91-dc62-252b-2ce7-fdc168e57222" testName="ReturnSinusOfDoubleNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0003345" startTime="2021-06-09T10:02:44.5115882+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1f9e34e-85a8-4f13-8317-71304b3114d7" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e1a1ed51-65f2-4b48-ad83-9c6f5a5c22cc" parentExecutionId="e255ebea-ceb2-46ac-b029-d46512c30c83" testId="8ff26f91-dc62-252b-2ce7-fdc168e57222" testName="ReturnSinusOfDoubleNumber (30,-0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000038" startTime="2021-06-09T10:02:44.5115882+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1a1ed51-65f2-4b48-ad83-9c6f5a5c22cc" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ff89eefa-600d-4974-9b24-8974b397fc96" parentExecutionId="e255ebea-ceb2-46ac-b029-d46512c30c83" testId="8ff26f91-dc62-252b-2ce7-fdc168e57222" testName="ReturnSinusOfDoubleNumber (-30,0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000018" startTime="2021-06-09T10:02:44.5115882+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff89eefa-600d-4974-9b24-8974b397fc96" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="a100f43c-c6fd-49e5-ae4a-847dbb88f500" testId="a9a6468e-8925-ba42-852c-a79398b84f04" testName="ReturnCosineOfIntNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0002238" startTime="2021-06-09T10:02:44.4786278+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a100f43c-c6fd-49e5-ae4a-847dbb88f500" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="12a1e2cb-537c-4288-9ba5-092be0e4c0bc" parentExecutionId="a100f43c-c6fd-49e5-ae4a-847dbb88f500" testId="a9a6468e-8925-ba42-852c-a79398b84f04" testName="ReturnCosineOfIntNumber (0,1)" computerName="EPBYMINW0AAA" duration="00:00:00.0001166" startTime="2021-06-09T10:02:44.4786278+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12a1e2cb-537c-4288-9ba5-092be0e4c0bc" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f4ead45e-ff2b-4141-9e73-6c842fa75b71" parentExecutionId="a100f43c-c6fd-49e5-ae4a-847dbb88f500" testId="a9a6468e-8925-ba42-852c-a79398b84f04" testName="ReturnCosineOfIntNumber (60,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000066" startTime="2021-06-09T10:02:44.4786278+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4ead45e-ff2b-4141-9e73-6c842fa75b71" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="87f132a0-800b-46d8-8b82-294b0a3f7ad3" parentExecutionId="a100f43c-c6fd-49e5-ae4a-847dbb88f500" testId="a9a6468e-8925-ba42-852c-a79398b84f04" testName="ReturnCosineOfIntNumber (90,-0.44807361612917)" computerName="EPBYMINW0AAA" duration="00:00:00.0000020" startTime="2021-06-09T10:02:44.4786278+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87f132a0-800b-46d8-8b82-294b0a3f7ad3" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="919a8581-f72a-47ad-8f2d-4ba074da8213" parentExecutionId="a100f43c-c6fd-49e5-ae4a-847dbb88f500" testId="a9a6468e-8925-ba42-852c-a79398b84f04" testName="ReturnCosineOfIntNumber (-60,-0.952412980415156)" computerName="EPBYMINW0AAA" duration="00:00:00.0000047" startTime="2021-06-09T10:02:44.4786278+03:00" endTime="2021-06-09T10:02:44.4796259+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="919a8581-f72a-47ad-8f2d-4ba074da8213" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e69ae7a-ca4d-419e-b841-f6b2d78bcd2f" testId="1fe149e2-4d07-627b-3157-e9aa598b3201" testName="ReturnSinusOfStringNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0002079" startTime="2021-06-09T10:02:44.5132755+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e69ae7a-ca4d-419e-b841-f6b2d78bcd2f" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="42cf00ec-a56e-414e-9b89-606f6f868fc7" parentExecutionId="0e69ae7a-ca4d-419e-b841-f6b2d78bcd2f" testId="1fe149e2-4d07-627b-3157-e9aa598b3201" testName="ReturnSinusOfStringNumber (0.0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0001057" startTime="2021-06-09T10:02:44.5132755+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42cf00ec-a56e-414e-9b89-606f6f868fc7" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a8382e78-7e8a-442b-8959-fa796bbf9d71" parentExecutionId="0e69ae7a-ca4d-419e-b841-f6b2d78bcd2f" testId="1fe149e2-4d07-627b-3157-e9aa598b3201" testName="ReturnSinusOfStringNumber (30.00,-0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000032" startTime="2021-06-09T10:02:44.5132755+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8382e78-7e8a-442b-8959-fa796bbf9d71" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="c031a674-6ed6-44b7-8db5-b7f7049dbb77" parentExecutionId="0e69ae7a-ca4d-419e-b841-f6b2d78bcd2f" testId="1fe149e2-4d07-627b-3157-e9aa598b3201" testName="ReturnSinusOfStringNumber (-30.000,0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000021" startTime="2021-06-09T10:02:44.5132755+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c031a674-6ed6-44b7-8db5-b7f7049dbb77" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6ab8e3c-5cbe-4527-8d04-55b21048e5e4" testId="c6861598-0be7-0cca-2d67-4e90895adf11" testName="ReturnSquareRootOfFloatNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0002569" startTime="2021-06-09T10:02:44.5152692+03:00" endTime="2021-06-09T10:02:44.5152692+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6ab8e3c-5cbe-4527-8d04-55b21048e5e4" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="67c7f3cb-57e6-4dbd-ba15-6ef8e36f7d8f" parentExecutionId="d6ab8e3c-5cbe-4527-8d04-55b21048e5e4" testId="c6861598-0be7-0cca-2d67-4e90895adf11" testName="ReturnSquareRootOfFloatNumber (4,2)" computerName="EPBYMINW0AAA" duration="00:00:00.0002015" startTime="2021-06-09T10:02:44.5152692+03:00" endTime="2021-06-09T10:02:44.5152692+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67c7f3cb-57e6-4dbd-ba15-6ef8e36f7d8f" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="205482d8-1391-4761-a5dd-bbc3983efff7" parentExecutionId="d6ab8e3c-5cbe-4527-8d04-55b21048e5e4" testId="c6861598-0be7-0cca-2d67-4e90895adf11" testName="ReturnSquareRootOfFloatNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000025" startTime="2021-06-09T10:02:44.5152692+03:00" endTime="2021-06-09T10:02:44.5152692+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="205482d8-1391-4761-a5dd-bbc3983efff7" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0861d9f-32fd-4ef6-b773-23a763684ee5" testId="7b141bc0-be98-6078-3178-d116be836526" testName="DefinePositiveFloatNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0001645" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0861d9f-32fd-4ef6-b773-23a763684ee5" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="da99c894-17ae-4771-9a08-85730114394f" parentExecutionId="f0861d9f-32fd-4ef6-b773-23a763684ee5" testId="7b141bc0-be98-6078-3178-d116be836526" testName="DefinePositiveFloatNumber (-19.9,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000968" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da99c894-17ae-4771-9a08-85730114394f" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="44b94461-b97c-49f5-9f28-e456ea28a76d" parentExecutionId="f0861d9f-32fd-4ef6-b773-23a763684ee5" testId="7b141bc0-be98-6078-3178-d116be836526" testName="DefinePositiveFloatNumber (18.3,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0000025" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44b94461-b97c-49f5-9f28-e456ea28a76d" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="eec411ec-959f-4a46-b799-b1cc863295fc" parentExecutionId="f0861d9f-32fd-4ef6-b773-23a763684ee5" testId="7b141bc0-be98-6078-3178-d116be836526" testName="DefinePositiveFloatNumber (0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000015" startTime="2021-06-09T10:02:44.4906230+03:00" endTime="2021-06-09T10:02:44.4906230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eec411ec-959f-4a46-b799-b1cc863295fc" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="5eff2e9b-54fc-4e3d-bb6a-0da668fbb914" testId="abf0d991-0f97-8c36-63b0-b52ae6095c08" testName="ReturnSinusOfFloatNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0001262" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5eff2e9b-54fc-4e3d-bb6a-0da668fbb914" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="b05671f8-ec8f-4a37-bc7a-10ef8cfc465f" parentExecutionId="5eff2e9b-54fc-4e3d-bb6a-0da668fbb914" testId="abf0d991-0f97-8c36-63b0-b52ae6095c08" testName="ReturnSinusOfFloatNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000777" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b05671f8-ec8f-4a37-bc7a-10ef8cfc465f" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="edd9e781-858e-4308-b707-fe3baea9bea8" parentExecutionId="5eff2e9b-54fc-4e3d-bb6a-0da668fbb914" testId="abf0d991-0f97-8c36-63b0-b52ae6095c08" testName="ReturnSinusOfFloatNumber (30,-0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000027" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edd9e781-858e-4308-b707-fe3baea9bea8" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="10fc2a04-4072-470c-abe8-3fc1dea1080f" parentExecutionId="5eff2e9b-54fc-4e3d-bb6a-0da668fbb914" testId="abf0d991-0f97-8c36-63b0-b52ae6095c08" testName="ReturnSinusOfFloatNumber (-30,0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000016" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5132755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10fc2a04-4072-470c-abe8-3fc1dea1080f" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="77b3bb4a-e830-4ce9-8488-a92fe70539ba" testId="34deedb9-5099-05f2-1925-38d85addb758" testName="ReturnSinusOfIntNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0001590" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77b3bb4a-e830-4ce9-8488-a92fe70539ba" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="6bd0dd31-469a-46ca-9f19-0977b142d7dc" parentExecutionId="77b3bb4a-e830-4ce9-8488-a92fe70539ba" testId="34deedb9-5099-05f2-1925-38d85addb758" testName="ReturnSinusOfIntNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0001126" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bd0dd31-469a-46ca-9f19-0977b142d7dc" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="1bac4ca2-5676-4bcc-8e27-ea8779502575" parentExecutionId="77b3bb4a-e830-4ce9-8488-a92fe70539ba" testId="34deedb9-5099-05f2-1925-38d85addb758" testName="ReturnSinusOfIntNumber (30,-0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000025" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bac4ca2-5676-4bcc-8e27-ea8779502575" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="137b55b3-f6ea-4a9d-ae5d-7af790ace63b" parentExecutionId="77b3bb4a-e830-4ce9-8488-a92fe70539ba" testId="34deedb9-5099-05f2-1925-38d85addb758" testName="ReturnSinusOfIntNumber (-30,0.988031624092862)" computerName="EPBYMINW0AAA" duration="00:00:00.0000017" startTime="2021-06-09T10:02:44.5122768+03:00" endTime="2021-06-09T10:02:44.5122768+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="137b55b3-f6ea-4a9d-ae5d-7af790ace63b" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="bfd4f646-9f83-4c92-9743-f4f7caa75160" testId="fc9f901d-3547-8678-3c67-025d2903380c" testName="DefineNegativeFloatNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0007543" startTime="2021-06-09T10:02:44.4876038+03:00" endTime="2021-06-09T10:02:44.4886024+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfd4f646-9f83-4c92-9743-f4f7caa75160" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="a4d7a16e-f2b2-480d-89e0-6dd0790e599a" parentExecutionId="bfd4f646-9f83-4c92-9743-f4f7caa75160" testId="fc9f901d-3547-8678-3c67-025d2903380c" testName="DefineNegativeFloatNumber (-15.7,True)" computerName="EPBYMINW0AAA" duration="00:00:00.0000972" startTime="2021-06-09T10:02:44.4876038+03:00" endTime="2021-06-09T10:02:44.4886024+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4d7a16e-f2b2-480d-89e0-6dd0790e599a" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="beb6c190-fac4-49b6-af39-b5589a0b8cbe" parentExecutionId="bfd4f646-9f83-4c92-9743-f4f7caa75160" testId="fc9f901d-3547-8678-3c67-025d2903380c" testName="DefineNegativeFloatNumber (18,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0000029" startTime="2021-06-09T10:02:44.4876038+03:00" endTime="2021-06-09T10:02:44.4886024+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="beb6c190-fac4-49b6-af39-b5589a0b8cbe" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="21cf5489-d0ac-43a0-bea7-60ef89ac7934" parentExecutionId="bfd4f646-9f83-4c92-9743-f4f7caa75160" testId="fc9f901d-3547-8678-3c67-025d2903380c" testName="DefineNegativeFloatNumber (0,False)" computerName="EPBYMINW0AAA" duration="00:00:00.0006051" startTime="2021-06-09T10:02:44.4876038+03:00" endTime="2021-06-09T10:02:44.4886024+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21cf5489-d0ac-43a0-bea7-60ef89ac7934" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+              <StackTrace>   at MSTesting.IsNegativeUnitTests.DefineNegativeFloatNumber(Single inputNumber, Boolean expectedResult) in C:\Data\Temp\MSTesting\MSTesting\IsNegativeUnitTests.cs:line 44&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e6bc0d4-777d-4e71-8f21-f71bd1f401f0" testId="ad6a907c-cf94-7cef-2edf-a37b69b814d2" testName="ReturnDivideByZeroException" computerName="EPBYMINW0AAA" duration="00:00:00.0006825" startTime="2021-06-09T10:02:44.4816198+03:00" endTime="2021-06-09T10:02:44.4826173+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e6bc0d4-777d-4e71-8f21-f71bd1f401f0" />
+    <UnitTestResult executionId="423ca647-b598-4c5f-9b28-6b7bc4358443" testId="492a3965-a173-2a19-4b0d-45e377b71a50" testName="ReturnAbsoluteOfIntNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0001376" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="423ca647-b598-4c5f-9b28-6b7bc4358443" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="4d252249-861f-4934-8e87-37679febb516" parentExecutionId="423ca647-b598-4c5f-9b28-6b7bc4358443" testId="492a3965-a173-2a19-4b0d-45e377b71a50" testName="ReturnAbsoluteOfIntNumber (7,7)" computerName="EPBYMINW0AAA" duration="00:00:00.0000881" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d252249-861f-4934-8e87-37679febb516" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="258bd016-34bd-4fcd-80dc-18fe5867a1d8" parentExecutionId="423ca647-b598-4c5f-9b28-6b7bc4358443" testId="492a3965-a173-2a19-4b0d-45e377b71a50" testName="ReturnAbsoluteOfIntNumber (-19,19)" computerName="EPBYMINW0AAA" duration="00:00:00.0000027" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="258bd016-34bd-4fcd-80dc-18fe5867a1d8" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="74a4c80e-88ed-49b7-a6fa-cb24ceacbf70" parentExecutionId="423ca647-b598-4c5f-9b28-6b7bc4358443" testId="492a3965-a173-2a19-4b0d-45e377b71a50" testName="ReturnAbsoluteOfIntNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000016" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74a4c80e-88ed-49b7-a6fa-cb24ceacbf70" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="ded527a1-2a10-446c-b8b6-0be461e4e0ea" testId="58ca49b3-01bf-47d3-5123-adc5e06d215f" testName="ReturnProductOfTwoDoubleNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0003724" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ded527a1-2a10-446c-b8b6-0be461e4e0ea" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="0dbce626-6e35-4719-b4a9-0c873c27e473" parentExecutionId="ded527a1-2a10-446c-b8b6-0be461e4e0ea" testId="58ca49b3-01bf-47d3-5123-adc5e06d215f" testName="ReturnProductOfTwoDoubleNumbers (6,2,12)" computerName="EPBYMINW0AAA" duration="00:00:00.0002690" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dbce626-6e35-4719-b4a9-0c873c27e473" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="963a8a69-026b-40f3-ad32-d82592252851" parentExecutionId="ded527a1-2a10-446c-b8b6-0be461e4e0ea" testId="58ca49b3-01bf-47d3-5123-adc5e06d215f" testName="ReturnProductOfTwoDoubleNumbers (-6,1.5,-9)" computerName="EPBYMINW0AAA" duration="00:00:00.0000033" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="963a8a69-026b-40f3-ad32-d82592252851" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ca287845-388d-40a0-a67f-130517049d36" parentExecutionId="ded527a1-2a10-446c-b8b6-0be461e4e0ea" testId="58ca49b3-01bf-47d3-5123-adc5e06d215f" testName="ReturnProductOfTwoDoubleNumbers (0,10,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000017" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca287845-388d-40a0-a67f-130517049d36" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f297bf73-efa6-46b4-88fa-69fd5a1ca0d9" parentExecutionId="ded527a1-2a10-446c-b8b6-0be461e4e0ea" testId="58ca49b3-01bf-47d3-5123-adc5e06d215f" testName="ReturnProductOfTwoDoubleNumbers (8,-2,-16)" computerName="EPBYMINW0AAA" duration="00:00:00.0000014" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f297bf73-efa6-46b4-88fa-69fd5a1ca0d9" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="fc0282cf-9be2-4ddc-9fa0-ddcc3411ef5a" parentExecutionId="ded527a1-2a10-446c-b8b6-0be461e4e0ea" testId="58ca49b3-01bf-47d3-5123-adc5e06d215f" testName="ReturnProductOfTwoDoubleNumbers (0,0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000015" startTime="2021-06-09T10:02:44.4916174+03:00" endTime="2021-06-09T10:02:44.4916174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc0282cf-9be2-4ddc-9fa0-ddcc3411ef5a" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="7aa694d6-7c0f-486c-8535-e0c767a331a0" testId="f5aca1e2-596b-0d67-7004-a735fc433212" testName="ReturnAbsoluteOfFloatNumber" computerName="EPBYMINW0AAA" duration="00:00:00.0001402" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7aa694d6-7c0f-486c-8535-e0c767a331a0" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="21eada0a-8ab1-46d7-8241-50d7b32baa57" parentExecutionId="7aa694d6-7c0f-486c-8535-e0c767a331a0" testId="f5aca1e2-596b-0d67-7004-a735fc433212" testName="ReturnAbsoluteOfFloatNumber (12,12)" computerName="EPBYMINW0AAA" duration="00:00:00.0000887" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21eada0a-8ab1-46d7-8241-50d7b32baa57" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="6441254d-10b5-4f9b-b257-c79caca5fab5" parentExecutionId="7aa694d6-7c0f-486c-8535-e0c767a331a0" testId="f5aca1e2-596b-0d67-7004-a735fc433212" testName="ReturnAbsoluteOfFloatNumber (-19,19)" computerName="EPBYMINW0AAA" duration="00:00:00.0000051" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6441254d-10b5-4f9b-b257-c79caca5fab5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="236b097d-129f-418a-91bc-7dcd49e9ed70" parentExecutionId="7aa694d6-7c0f-486c-8535-e0c767a331a0" testId="f5aca1e2-596b-0d67-7004-a735fc433212" testName="ReturnAbsoluteOfFloatNumber (0,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000018" startTime="2021-06-09T10:02:44.3937025+03:00" endTime="2021-06-09T10:02:44.3937025+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="236b097d-129f-418a-91bc-7dcd49e9ed70" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="784ec364-f0db-43b8-99b5-37ebb2247c72" testId="4f3a087c-6f65-2004-b0c3-77ffd3e5af19" testName="ReturnDivisionOfTwoFloatNumbers" computerName="EPBYMINW0AAA" duration="00:00:00.0001310" startTime="2021-06-09T10:02:44.4816198+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="784ec364-f0db-43b8-99b5-37ebb2247c72" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="47a0dd38-7484-4fc7-ac63-8e13c83cb5e3" parentExecutionId="784ec364-f0db-43b8-99b5-37ebb2247c72" testId="4f3a087c-6f65-2004-b0c3-77ffd3e5af19" testName="ReturnDivisionOfTwoFloatNumbers (10,2,5)" computerName="EPBYMINW0AAA" duration="00:00:00.0000682" startTime="2021-06-09T10:02:44.4816198+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47a0dd38-7484-4fc7-ac63-8e13c83cb5e3" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="63b38e2e-3853-4e69-ab32-c4a8c2b271be" parentExecutionId="784ec364-f0db-43b8-99b5-37ebb2247c72" testId="4f3a087c-6f65-2004-b0c3-77ffd3e5af19" testName="ReturnDivisionOfTwoFloatNumbers (-7,3.5,-2)" computerName="EPBYMINW0AAA" duration="00:00:00.0000024" startTime="2021-06-09T10:02:44.4816198+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63b38e2e-3853-4e69-ab32-c4a8c2b271be" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="7189e8ab-98cf-42c1-96c8-e49d51abe983" parentExecutionId="784ec364-f0db-43b8-99b5-37ebb2247c72" testId="4f3a087c-6f65-2004-b0c3-77ffd3e5af19" testName="ReturnDivisionOfTwoFloatNumbers (0,13,0)" computerName="EPBYMINW0AAA" duration="00:00:00.0000015" startTime="2021-06-09T10:02:44.4816198+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7189e8ab-98cf-42c1-96c8-e49d51abe983" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0dc52a71-1a2c-44f3-b10f-b6853f260ea0" parentExecutionId="784ec364-f0db-43b8-99b5-37ebb2247c72" testId="4f3a087c-6f65-2004-b0c3-77ffd3e5af19" testName="ReturnDivisionOfTwoFloatNumbers (15,-7.5,-2)" computerName="EPBYMINW0AAA" duration="00:00:00.0000045" startTime="2021-06-09T10:02:44.4816198+03:00" endTime="2021-06-09T10:02:44.4816198+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dc52a71-1a2c-44f3-b10f-b6853f260ea0" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DefineNegativeFloatNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="fc9f901d-3547-8678-3c67-025d2903380c">
+      <Execution id="bfd4f646-9f83-4c92-9743-f4f7caa75160" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsNegativeUnitTests" name="DefineNegativeFloatNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSinusOfFloatNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="abf0d991-0f97-8c36-63b0-b52ae6095c08">
+      <Execution id="5eff2e9b-54fc-4e3d-bb6a-0da668fbb914" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SinUnitTests" name="ReturnSinusOfFloatNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSumOfTwoIntNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="30dce7b5-94c1-62bd-ce17-ff389e5707e4">
+      <Execution id="866430a2-d538-4899-8683-3ffdb16aaf41" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AddUnitTests" name="ReturnSumOfTwoIntNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnSumOfTwoStringNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="87ab78f8-03ec-3d2b-9c83-24f47de2e913">
+      <Execution id="2af455ca-73b3-482e-84f8-c27f62d93064" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AddUnitTests" name="ReturnSumOfTwoStringNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnSquareRootOfNegativeNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="a6a58d2b-69bb-da39-91b3-9cd20e2e85e5">
+      <Execution id="3c32bacb-db72-4c43-ac99-c8cb0dfb7a05" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SqrtUnitTests" name="ReturnSquareRootOfNegativeNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnCosineOfFloatNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="6239f6dd-cf03-c806-32bc-0b9932deab33">
+      <Execution id="362e94d0-13b6-4907-9868-26a69077bf92" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.CosUnitTests" name="ReturnCosineOfFloatNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSubtractingOfTwoIntNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="024ea812-486b-a6a6-ae13-02aca705ba76">
+      <Execution id="fcee9448-57ad-4307-b884-bcd92bcb125c" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SubUnitTests" name="ReturnSubtractingOfTwoIntNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnProductOfTwoFloatNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="f2d1238a-396a-87b8-3887-60cf50ccef4f">
+      <Execution id="822c3ad9-b980-49f2-b630-974d93286b65" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.MultiplyUnitTests" name="ReturnProductOfTwoFloatNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnDivideByZeroException" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="ad6a907c-cf94-7cef-2edf-a37b69b814d2">
+      <Execution id="2e6bc0d4-777d-4e71-8f21-f71bd1f401f0" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.DivideUnitTests" name="ReturnDivideByZeroException" />
+    </UnitTest>
+    <UnitTest name="ReturnCosineOfIntNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="a9a6468e-8925-ba42-852c-a79398b84f04">
+      <Execution id="a100f43c-c6fd-49e5-ae4a-847dbb88f500" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.CosUnitTests" name="ReturnCosineOfIntNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSinusOfIntNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="34deedb9-5099-05f2-1925-38d85addb758">
+      <Execution id="77b3bb4a-e830-4ce9-8488-a92fe70539ba" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SinUnitTests" name="ReturnSinusOfIntNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSquareRootOfStringNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="c4685b79-554c-35e0-0ed1-30486507ef2f">
+      <Execution id="04aa1170-1694-41bf-a2d4-0d420f2f1520" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SqrtUnitTests" name="ReturnSquareRootOfStringNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnAbsoluteOfStringNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="8100dbc2-43c6-6fea-747f-01476eb9c640">
+      <Execution id="e2e13838-e07d-48ab-908b-5adbe74adda5" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AbsUnitTests" name="ReturnAbsoluteOfStringNumber" />
+    </UnitTest>
+    <UnitTest name="DefineNegativeDoubleNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="c35afcaa-4695-627f-019e-a5c624075431">
+      <Execution id="e7e6345d-4466-4d1e-a09b-69be55e5fc82" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsNegativeUnitTests" name="DefineNegativeDoubleNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnDivisionOfTwoIntNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="aa520772-57ca-ce27-bf4b-e41b935e9b97">
+      <Execution id="f81401d9-e5ff-49f3-8119-8e28714d67a2" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.DivideUnitTests" name="ReturnDivisionOfTwoIntNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnProductOfTwoDoubleNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="58ca49b3-01bf-47d3-5123-adc5e06d215f">
+      <Execution id="ded527a1-2a10-446c-b8b6-0be461e4e0ea" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.MultiplyUnitTests" name="ReturnProductOfTwoDoubleNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnCosineOfStringNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="a0448219-705f-0990-91fa-0c0aed477283">
+      <Execution id="247145e2-a07b-43cd-ad23-62d49388ea6f" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.CosUnitTests" name="ReturnCosineOfStringNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSquareRootOfIntNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="87652100-307b-0039-abf8-faecff0d6170">
+      <Execution id="24a29d48-aace-40ce-8249-66791559d307" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SqrtUnitTests" name="ReturnSquareRootOfIntNumber" />
+    </UnitTest>
+    <UnitTest name="DefinePositiveDoubleNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="fa5cd141-cdc5-cab0-b635-edeb8249d4d2">
+      <Execution id="81c108b0-2b58-4f7e-a74d-63cefc69e8df" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsPositiveUnitTests" name="DefinePositiveDoubleNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnDivisionOfTwoDoubleNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="d8e55f39-09b8-9d79-e662-0c7e53f0d5b8">
+      <Execution id="045f77e1-93e1-407f-8f07-fd565f646ece" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.DivideUnitTests" name="ReturnDivisionOfTwoDoubleNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnValueOfPowerForTwoIntNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="81308b57-0550-2abb-92ab-e09d61e27724">
+      <Execution id="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.PowUnitTests" name="ReturnValueOfPowerForTwoIntNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnAbsoluteOfDoubleNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="608b0384-2986-3396-e582-25e15630a65b">
+      <Execution id="694e5e81-7c2f-40ff-b1ec-bbb6bcb80070" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AbsUnitTests" name="ReturnAbsoluteOfDoubleNumber" />
+    </UnitTest>
+    <UnitTest name="DefinePositiveIntNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="d893ae18-30bc-2215-8920-a8a8346f71aa">
+      <Execution id="abff02f2-cb20-4bd7-851d-1bcccefc1378" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsPositiveUnitTests" name="DefinePositiveIntNumber" />
+    </UnitTest>
+    <UnitTest name="DefineNegativeIntNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="4348f80d-908d-ec32-cfbc-ea8bda297c5c">
+      <Execution id="b26a4243-d7a3-4659-91f0-5a64898bb9f1" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsNegativeUnitTests" name="DefineNegativeIntNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnDivisionOfTwoFloatNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="4f3a087c-6f65-2004-b0c3-77ffd3e5af19">
+      <Execution id="784ec364-f0db-43b8-99b5-37ebb2247c72" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.DivideUnitTests" name="ReturnDivisionOfTwoFloatNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnSubtractingOfTwoFloatNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="36fa2137-a24d-5321-e27a-8bfd991b55dc">
+      <Execution id="22e00ce6-f70d-4282-8904-e97e5c252158" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SubUnitTests" name="ReturnSubtractingOfTwoFloatNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnValueOfPowerForTwoFloatNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="a53833d5-5941-5137-beac-c644f6977fd1">
+      <Execution id="51349a74-b9f3-48f9-8a7d-b875aef4acd6" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.PowUnitTests" name="ReturnValueOfPowerForTwoFloatNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnValueOfPowerForTwoDoubleNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="28556cce-956a-fd60-e09f-d53fb4e5b02f">
+      <Execution id="4eb2583b-004b-4275-824b-7b40c9a47af9" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.PowUnitTests" name="ReturnValueOfPowerForTwoDoubleNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnAbsoluteOfIntNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="492a3965-a173-2a19-4b0d-45e377b71a50">
+      <Execution id="423ca647-b598-4c5f-9b28-6b7bc4358443" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AbsUnitTests" name="ReturnAbsoluteOfIntNumber" />
+    </UnitTest>
+    <UnitTest name="DefinePositiveFloatNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="7b141bc0-be98-6078-3178-d116be836526">
+      <Execution id="f0861d9f-32fd-4ef6-b773-23a763684ee5" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsPositiveUnitTests" name="DefinePositiveFloatNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnValueOfPowerForTwoStringNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048">
+      <Execution id="4466afb6-e957-4a9e-bf10-efc5c37eef1c" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.PowUnitTests" name="ReturnValueOfPowerForTwoStringNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnSinusOfDoubleNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="8ff26f91-dc62-252b-2ce7-fdc168e57222">
+      <Execution id="e255ebea-ceb2-46ac-b029-d46512c30c83" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SinUnitTests" name="ReturnSinusOfDoubleNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSubtractingOfTwoDoubleNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="33cc40d9-7ed5-0b90-6375-9ff7c803ce55">
+      <Execution id="f48c3d4e-ad79-427e-960b-5d3b60010fc4" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SubUnitTests" name="ReturnSubtractingOfTwoDoubleNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnSumOfTwoFloatNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="785e7d98-3fff-17e8-78c5-1c17ff7d451a">
+      <Execution id="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AddUnitTests" name="ReturnSumOfTwoFloatNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnProductOfTwoIntNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7">
+      <Execution id="18941254-9066-4819-8686-e72ea7dba32b" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.MultiplyUnitTests" name="ReturnProductOfTwoIntNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnSquareRootOfDoubleNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="d1211205-75fe-f09e-3b4d-591e8fc58434">
+      <Execution id="2d5ef2f4-a2ea-423c-b648-bf389e67ebe5" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SqrtUnitTests" name="ReturnSquareRootOfDoubleNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSinusOfStringNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="1fe149e2-4d07-627b-3157-e9aa598b3201">
+      <Execution id="0e69ae7a-ca4d-419e-b841-f6b2d78bcd2f" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SinUnitTests" name="ReturnSinusOfStringNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnCosineOfDoubleNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="3f90ad56-ee2c-0625-be79-efe80fd5eef8">
+      <Execution id="35e8edba-5729-41bf-8acd-c2a5bcd13be3" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.CosUnitTests" name="ReturnCosineOfDoubleNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSumOfTwoStringNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="2b3c9281-851c-9bb4-e3b3-3d46543f9296">
+      <Execution id="917447df-40f3-412a-ab63-1ff31d0863fc" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SubUnitTests" name="ReturnSumOfTwoStringNumbers" />
+    </UnitTest>
+    <UnitTest name="ReturnAbsoluteOfFloatNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="f5aca1e2-596b-0d67-7004-a735fc433212">
+      <Execution id="7aa694d6-7c0f-486c-8535-e0c767a331a0" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AbsUnitTests" name="ReturnAbsoluteOfFloatNumber" />
+    </UnitTest>
+    <UnitTest name="DefineNegativeStringNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="81b2e40f-23ac-16e1-be8a-98e574e80501">
+      <Execution id="ac90ff28-40ed-46a7-82ab-3845b09fb0d1" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsNegativeUnitTests" name="DefineNegativeStringNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSumOfTwoDoubleNumbers" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="51aaa8a9-e7bc-f863-dea3-d43a2446b7d2">
+      <Execution id="e9582c8c-501a-4efe-9542-ea860a9f4c7d" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.AddUnitTests" name="ReturnSumOfTwoDoubleNumbers" />
+    </UnitTest>
+    <UnitTest name="DefinePositiveStringNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="5cb915aa-1aba-f45f-6777-b882c68196fb">
+      <Execution id="81488623-7984-406b-9b97-239485126cb2" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.IsPositiveUnitTests" name="DefinePositiveStringNumber" />
+    </UnitTest>
+    <UnitTest name="ReturnSquareRootOfFloatNumber" storage="c:\data\temp\mstesting\mstesting\bin\debug\net48\mstesting.dll" id="c6861598-0be7-0cca-2d67-4e90895adf11">
+      <Execution id="d6ab8e3c-5cbe-4527-8d04-55b21048e5e4" />
+      <TestMethod codeBase="C:\Data\Temp\MSTesting\MSTesting\bin\Debug\net48\MSTesting.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTesting.SqrtUnitTests" name="ReturnSquareRootOfFloatNumber" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="81308b57-0550-2abb-92ab-e09d61e27724" executionId="3b9fecbf-4639-4e22-a752-610d7f7ed3c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3de46db1-48d4-7a04-60f5-f6e20ae3cfb7" executionId="18941254-9066-4819-8686-e72ea7dba32b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51aaa8a9-e7bc-f863-dea3-d43a2446b7d2" executionId="e9582c8c-501a-4efe-9542-ea860a9f4c7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa5cd141-cdc5-cab0-b635-edeb8249d4d2" executionId="81c108b0-2b58-4f7e-a74d-63cefc69e8df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c35afcaa-4695-627f-019e-a5c624075431" executionId="e7e6345d-4466-4d1e-a09b-69be55e5fc82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87652100-307b-0039-abf8-faecff0d6170" executionId="24a29d48-aace-40ce-8249-66791559d307" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b3c9281-851c-9bb4-e3b3-3d46543f9296" executionId="917447df-40f3-412a-ab63-1ff31d0863fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a53833d5-5941-5137-beac-c644f6977fd1" executionId="51349a74-b9f3-48f9-8a7d-b875aef4acd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81b2e40f-23ac-16e1-be8a-98e574e80501" executionId="ac90ff28-40ed-46a7-82ab-3845b09fb0d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2d1238a-396a-87b8-3887-60cf50ccef4f" executionId="822c3ad9-b980-49f2-b630-974d93286b65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4685b79-554c-35e0-0ed1-30486507ef2f" executionId="04aa1170-1694-41bf-a2d4-0d420f2f1520" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30dce7b5-94c1-62bd-ce17-ff389e5707e4" executionId="866430a2-d538-4899-8683-3ffdb16aaf41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33cc40d9-7ed5-0b90-6375-9ff7c803ce55" executionId="f48c3d4e-ad79-427e-960b-5d3b60010fc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6239f6dd-cf03-c806-32bc-0b9932deab33" executionId="362e94d0-13b6-4907-9868-26a69077bf92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="024ea812-486b-a6a6-ae13-02aca705ba76" executionId="fcee9448-57ad-4307-b884-bcd92bcb125c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0448219-705f-0990-91fa-0c0aed477283" executionId="247145e2-a07b-43cd-ad23-62d49388ea6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f90ad56-ee2c-0625-be79-efe80fd5eef8" executionId="35e8edba-5729-41bf-8acd-c2a5bcd13be3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6a58d2b-69bb-da39-91b3-9cd20e2e85e5" executionId="3c32bacb-db72-4c43-ac99-c8cb0dfb7a05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8e55f39-09b8-9d79-e662-0c7e53f0d5b8" executionId="045f77e1-93e1-407f-8f07-fd565f646ece" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="608b0384-2986-3396-e582-25e15630a65b" executionId="694e5e81-7c2f-40ff-b1ec-bbb6bcb80070" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d893ae18-30bc-2215-8920-a8a8346f71aa" executionId="abff02f2-cb20-4bd7-851d-1bcccefc1378" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cb915aa-1aba-f45f-6777-b882c68196fb" executionId="81488623-7984-406b-9b97-239485126cb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa520772-57ca-ce27-bf4b-e41b935e9b97" executionId="f81401d9-e5ff-49f3-8119-8e28714d67a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="785e7d98-3fff-17e8-78c5-1c17ff7d451a" executionId="d4f505d7-e4d0-4f60-a54f-99e97a128ebf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8100dbc2-43c6-6fea-747f-01476eb9c640" executionId="e2e13838-e07d-48ab-908b-5adbe74adda5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36fa2137-a24d-5321-e27a-8bfd991b55dc" executionId="22e00ce6-f70d-4282-8904-e97e5c252158" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1211205-75fe-f09e-3b4d-591e8fc58434" executionId="2d5ef2f4-a2ea-423c-b648-bf389e67ebe5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6b9d545-9d44-7f4a-9ed5-bb1f0efd6048" executionId="4466afb6-e957-4a9e-bf10-efc5c37eef1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28556cce-956a-fd60-e09f-d53fb4e5b02f" executionId="4eb2583b-004b-4275-824b-7b40c9a47af9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87ab78f8-03ec-3d2b-9c83-24f47de2e913" executionId="2af455ca-73b3-482e-84f8-c27f62d93064" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4348f80d-908d-ec32-cfbc-ea8bda297c5c" executionId="b26a4243-d7a3-4659-91f0-5a64898bb9f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ff26f91-dc62-252b-2ce7-fdc168e57222" executionId="e255ebea-ceb2-46ac-b029-d46512c30c83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9a6468e-8925-ba42-852c-a79398b84f04" executionId="a100f43c-c6fd-49e5-ae4a-847dbb88f500" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fe149e2-4d07-627b-3157-e9aa598b3201" executionId="0e69ae7a-ca4d-419e-b841-f6b2d78bcd2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6861598-0be7-0cca-2d67-4e90895adf11" executionId="d6ab8e3c-5cbe-4527-8d04-55b21048e5e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b141bc0-be98-6078-3178-d116be836526" executionId="f0861d9f-32fd-4ef6-b773-23a763684ee5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abf0d991-0f97-8c36-63b0-b52ae6095c08" executionId="5eff2e9b-54fc-4e3d-bb6a-0da668fbb914" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34deedb9-5099-05f2-1925-38d85addb758" executionId="77b3bb4a-e830-4ce9-8488-a92fe70539ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc9f901d-3547-8678-3c67-025d2903380c" executionId="bfd4f646-9f83-4c92-9743-f4f7caa75160" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad6a907c-cf94-7cef-2edf-a37b69b814d2" executionId="2e6bc0d4-777d-4e71-8f21-f71bd1f401f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="492a3965-a173-2a19-4b0d-45e377b71a50" executionId="423ca647-b598-4c5f-9b28-6b7bc4358443" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58ca49b3-01bf-47d3-5123-adc5e06d215f" executionId="ded527a1-2a10-446c-b8b6-0be461e4e0ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5aca1e2-596b-0d67-7004-a735fc433212" executionId="7aa694d6-7c0f-486c-8535-e0c767a331a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f3a087c-6f65-2004-b0c3-77ffd3e5af19" executionId="784ec364-f0db-43b8-99b5-37ebb2247c72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="203" executed="203" passed="144" failed="59" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
